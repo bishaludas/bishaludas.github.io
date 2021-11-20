@@ -14,6 +14,8 @@ import About from "./components/About/About";
 import Resume from "./components/Resume/Resume";
 import Articles from "./components/Articles/Articles";
 import Journal from "./components/Journal/Journal";
+import Project from "./components/projects/Project";
+import Stack from "./components/About/Stack";
 
 const App = () => {
   const classes = useStyles();
@@ -28,7 +30,7 @@ const App = () => {
         main: "#e57373",
       },
       background: {
-        default: "#202020",
+        default: darkMode ? "#202020" : "#fff",
       },
     },
     typography: {
@@ -48,14 +50,18 @@ const App = () => {
       <CssBaseline />
       <Router basename="/gh-budash">
         <div className={classes.container}>
-          <Navbar />
-          <Switch>
-            <Route exact path="/" component={About} />
-            <Route path="/resume" component={Resume} />
-            <Route path="/articles" component={Articles} />
-            <Route path="/journal" component={Journal} />
-            {/* <Redirect to="/" /> */}
-          </Switch>
+          <Navbar changeTheme={changeTheme} darkMode={darkMode} />
+          <div className="mt-5">
+            <Switch>
+              <Route exact path="/" component={About} />
+              <Route path="/resume" component={Resume} />
+              <Route path="/articles" component={Articles} />
+              <Route path="/journal" component={Journal} />
+              <Route path="/projects" component={Project} />
+              <Route path="/stack" component={Stack} />
+              <Redirect to="/" />
+            </Switch>
+          </div>
         </div>
       </Router>
     </ThemeProvider>
@@ -72,6 +78,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
       width: "100%",
     },
+    fontSize: "18px",
   },
   contentBody: {
     marginTop: "2.5rem",
