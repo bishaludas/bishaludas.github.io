@@ -10,13 +10,13 @@ import ArticleList from "./ArticleList.json";
 
 const ListArticle = () => {
   const classes = useStyles();
-  // const match = useRouteMatch();
-  // const location = useLocation();
+  const match = useRouteMatch();
+  const location = useLocation();
   const [articles, setArticles] = useState({});
   const [loading, setLoading] = useState(true);
-  // const [error, setError] = useState(null);
-  // const [page, setPage] = useState(1);
-  // const [count, setCount] = useState(1);
+  const [error, setError] = useState(null);
+  const [page, setPage] = useState(1);
+  const [count, setCount] = useState(1);
 
   useEffect(() => {
     setArticles(ArticleList);

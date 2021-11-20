@@ -79,6 +79,7 @@ const useStyles = makeStyles((theme) => ({
       width: "100%",
     },
     fontSize: "18px",
+    fontFamily: "Ubuntu",
   },
   contentBody: {
     marginTop: "2.5rem",
