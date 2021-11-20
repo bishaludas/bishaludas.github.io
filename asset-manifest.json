@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/gh-budash/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/gh-budash/static/js/main.9c1a85e3.chunk.js",
-    "main.js.map": "/gh-budash/static/js/main.9c1a85e3.chunk.js.map",
+    "main.js": "/gh-budash/static/js/main.b4a15789.chunk.js",
+    "main.js.map": "/gh-budash/static/js/main.b4a15789.chunk.js.map",
     "runtime-main.js": "/gh-budash/static/js/runtime-main.ce4c3208.js",
     "runtime-main.js.map": "/gh-budash/static/js/runtime-main.ce4c3208.js.map",
-    "static/js/2.7fe50ec4.chunk.js": "/gh-budash/static/js/2.7fe50ec4.chunk.js",
-    "static/js/2.7fe50ec4.chunk.js.map": "/gh-budash/static/js/2.7fe50ec4.chunk.js.map",
+    "static/js/2.ff097722.chunk.js": "/gh-budash/static/js/2.ff097722.chunk.js",
+    "static/js/2.ff097722.chunk.js.map": "/gh-budash/static/js/2.ff097722.chunk.js.map",
     "index.html": "/gh-budash/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/gh-budash/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.7fe50ec4.chunk.js.LICENSE.txt": "/gh-budash/static/js/2.7fe50ec4.chunk.js.LICENSE.txt"
+    "static/js/2.ff097722.chunk.js.LICENSE.txt": "/gh-budash/static/js/2.ff097722.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ce4c3208.js",
-    "static/js/2.7fe50ec4.chunk.js",
+    "static/js/2.ff097722.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.9c1a85e3.chunk.js"
+    "static/js/main.b4a15789.chunk.js"
   ]
 }
