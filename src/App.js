@@ -46,7 +46,7 @@ const App = () => {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/gh-budash">
         <div className={classes.container}>
           <Navbar />
           <Switch>
@@ -54,7 +54,7 @@ const App = () => {
             <Route path="/resume" component={Resume} />
             <Route path="/articles" component={Articles} />
             <Route path="/journal" component={Journal} />
-            <Redirect to="/" />
+            {/* <Redirect to="/" /> */}
           </Switch>
         </div>
       </Router>
