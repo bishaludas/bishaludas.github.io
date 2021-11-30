@@ -12,6 +12,17 @@ code {
     monospace;
 }
 
+.ql-syntax {
+  background-color: #2d0d22;
+  color: #eee;
+  padding: 20px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+}
+
 
 /* Bootstrap helper styles */
 /* bootstrap helper class */
