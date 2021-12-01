@@ -4,7 +4,7 @@ import Chip from "@material-ui/core/Chip";
 import { makeStyles } from "@material-ui/core/styles";
 
 const AwsCliCheatsheet = () => {
-  let tags = ["aws", "s3"];
+  let tags = ["aws", "s3", "aws cli"];
   const classes = useStyles();
 
   return (
@@ -49,27 +49,27 @@ const AwsCliCheatsheet = () => {
             <br />
           </p>
           <p>List Buckets</p>
-          <pre class="ql-syntax" spellcheck="false">
+          <pre className="ql-syntax" spellCheck="false">
             aws s3 ls
           </pre>
           <p>&nbsp;</p>
           <p>List files in a Bucket</p>
-          <pre class="ql-syntax" spellcheck="false">
+          <pre className="ql-syntax" spellCheck="false">
             aws s3 ls s3://bucket-name
           </pre>
           <p>&nbsp;</p>
           <p>Create Bucket</p>
-          <pre class="ql-syntax" spellcheck="false">
+          <pre className="ql-syntax" spellCheck="false">
             aws s3 mb s3://bucket-name make_bucket: bucket-name
           </pre>
           <p>&nbsp;</p>
           <p>Delete Bucket</p>
-          <pre class="ql-syntax" spellcheck="false">
+          <pre className="ql-syntax" spellCheck="false">
             aws s3 rb s3://bucket-name --force
           </pre>
           <p>&nbsp;</p>
           <p>Download S3 object to local</p>
-          <pre class="ql-syntax" spellcheck="false">
+          <pre className="ql-syntax" spellCheck="false">
             aws s3 cp s3://bucket-name/file.txt ~/Desktop/file.txt download:
             ./backup.tar from s3://bucket-name/file.txt to Dextop/file.txt
           </pre>
@@ -77,24 +77,24 @@ const AwsCliCheatsheet = () => {
             <br />
           </p>
           <p>Upload local file as S3 object</p>
-          <pre class="ql-syntax" spellcheck="false">
+          <pre className="ql-syntax" spellCheck="false">
             aws s3 cp backup.tar s3://bucket-name upload: ./backup.tar to
             s3://bucket-name/backup.tar
           </pre>
           <p>&nbsp;</p>
           <p>Delete S3 object</p>
-          <pre class="ql-syntax" spellcheck="false">
+          <pre className="ql-syntax" spellCheck="false">
             aws s3 rm s3://bucket-name/secret-file.gz . delete:
             s3://bucket-name/secret-file.gz
           </pre>
           <p>&nbsp;</p>
           <p>Download bucket to local</p>
-          <pre class="ql-syntax" spellcheck="false">
+          <pre className="ql-syntax" spellCheck="false">
             aws s3 sync s3://bucket-name/ /media/pasport-ultra/backup
           </pre>
           <p>&nbsp;</p>
           <p>Upload local directory to bucket</p>
-          <pre class="ql-syntax" spellcheck="false">
+          <pre className="ql-syntax" spellCheck="false">
             aws s3 sync (directory) s3://bucket-name/
           </pre>
           <p>

@@ -1,22 +1,22 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import { routes } from "./posts/PostIndex";
+import { routes } from "./posts/ProjectIndex.js";
 
-const ShowArticle = () => {
+const ShowProject = () => {
   return (
     <Switch>
       {routes.map((item, key) => (
         <Route
           exact
-          path={`/journal/${item.slug_title}`}
+          path={`/projects/${item.slug_title}`}
           component={item.component}
           key={key}
         />
       ))}
 
-      <Redirect to="/journal" />
+      <Redirect to="/projects" />
     </Switch>
   );
 };
 
-export default ShowArticle;
+export default ShowProject;

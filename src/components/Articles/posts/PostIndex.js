@@ -1,12 +1,22 @@
 import GitMeSomeKnowledge from "./GitMeSomeKnowledge";
 import AwsCliCheatsheet from "./AwsCliCheatsheet";
 
-export const routes = [
+export const Posts = [
+  {
+    title: "Creating user in Postgres, SQL Server and Mysql",
+    slug_title: "creating_user_in_postgres_sqlserver_mysql",
+    summary: "Collection of helpful  cli commands for S3 bucket",
+    tags: "Database, Postgres, SQL server, Mysql",
+    status: "publish",
+    created_at: "2021-12-01",
+    updated_at: "2021-12-01",
+    component: "",
+  },
   {
     title: "AWS Cli cheatsheet for S3",
     slug_title: "aws_cli_cheatsheet_for_s3",
     summary: "Collection of helpful  cli commands for S3 bucket",
-    tags: "aws, s3, cli",
+    tags: "aws, s3, aws cli",
     status: "publish",
     created_at: "2021-10-20",
     updated_at: "2021-10-20",
@@ -49,7 +59,7 @@ export const routes = [
     slug_title: "securely_connecting_to_remote_postgresql_database_2",
     summary:
       "In this article , we discuss on how to remotely connect to Postgres SQl database in secure manner.",
-    tags: "Postgres, Dbeaver",
+    tags: "Database, Postgres, Dbeaver",
     status: "publish",
     created_at: "2021-05-09",
     updated_at: "2021-06-01",
@@ -76,3 +86,15 @@ export const routes = [
     component: GitMeSomeKnowledge,
   },
 ];
+
+const sortDataByDates = (a, b) => {
+  if (a.created_at > b.created_at) {
+    return -1;
+  }
+  if (a.created_at < b.created_at) {
+    return 1;
+  }
+  return 0;
+};
+
+export const routes = Posts.sort(sortDataByDates);

@@ -1,8 +1,8 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import { routes } from "./posts/PostIndex";
+import { routes } from "./posts/JournalIndex.js";
 
-const ShowArticle = () => {
+const ShowJournal = () => {
   return (
     <Switch>
       {routes.map((item, key) => (
@@ -14,9 +14,9 @@ const ShowArticle = () => {
         />
       ))}
 
-      <Redirect to="/journal" />
+      <Redirect to="/projects" />
     </Switch>
   );
 };
 
-export default ShowArticle;
+export default ShowJournal;
