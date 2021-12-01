@@ -28,6 +28,9 @@ article a{
   color: #66a3e0;
 }
 
+article h2{
+  margin-bottom: 0;
+}
 
 /* Bootstrap helper styles */
 /* bootstrap helper class */

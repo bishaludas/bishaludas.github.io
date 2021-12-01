@@ -4,6 +4,7 @@ import Chip from "@material-ui/core/Chip";
 import { makeStyles } from "@material-ui/core/styles";
 import MigratingtoreactTable1 from "./images/migratingtoreactTable1.png";
 import MigratingtoreactTable2 from "./images/migratingtoreactTable2.png";
+import migratingtoreactTable3 from "./images/migratingtoreactTable3.jpeg";
 
 const MigratingToReactTable = () => {
   let tags = ["React", "Optimization"];
@@ -153,9 +154,11 @@ const MigratingToReactTable = () => {
             New Package Analysis
           </a>
         </p>
-        <p>
-          <br />
-        </p>
+        <img
+          src={migratingtoreactTable3}
+          alt="BigCo Inc. logo"
+          style={{ width: "100%" }}
+        />
       </article>
     </Fragment>
   );

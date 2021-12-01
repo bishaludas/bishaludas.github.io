@@ -3,6 +3,7 @@ import AwsCliCheatsheet from "./AwsCliCheatsheet";
 import ArticlesWorthReading from "./ArticlesWorthReading";
 import UpdatingNestedJavascript from "./UpdatingNestedJavascript";
 import MigratingToReactTable from "./MigratingToReactTable";
+import IssuesDevTeam from "./IssuesDevTeam";
 
 export const Posts = [
   {
@@ -70,13 +71,13 @@ export const Posts = [
   },
   {
     title: "Issues with building a stable Dev team",
-    slug_title: "issues_with_building_a_stable_dev_team_2",
+    slug_title: "issues_with_building_a_stable_dev_team",
     summary: "Things I learned when managing a team.",
     tags: "Slice of Life",
     status: "publish",
     created_at: "2021-03-03",
     updated_at: "2021-06-01",
-    component: "",
+    component: IssuesDevTeam,
   },
   {
     title: "Git me some knowledge",
