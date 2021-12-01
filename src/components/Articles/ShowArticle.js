@@ -8,13 +8,13 @@ const ShowArticle = () => {
       {routes.map((item, key) => (
         <Route
           exact
-          path={`/journal/${item.slug_title}`}
+          path={`/articles/${item.slug_title}`}
           component={item.component}
           key={key}
         />
       ))}
 
-      <Redirect to="/journal" />
+      <Redirect to="/articles" />
     </Switch>
   );
 };

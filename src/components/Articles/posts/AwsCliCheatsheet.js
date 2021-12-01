@@ -21,7 +21,7 @@ const AwsCliCheatsheet = () => {
         style={{ marginBottom: "2rem" }}
       >
         {/* {new Date(article.created_at).toDateString()} */}
-        {new Date().toDateString()}
+        {new Date("2021-10-20").toDateString()}
         {tags.length > 0
           ? tags.map((item, key) => (
               <Chip

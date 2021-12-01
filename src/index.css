@@ -23,6 +23,11 @@ code {
   white-space: -o-pre-wrap;
 }
 
+article a{
+  /* text-decoration: none; */
+  color: #66a3e0;
+}
+
 
 /* Bootstrap helper styles */
 /* bootstrap helper class */

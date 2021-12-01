@@ -1,5 +1,8 @@
 import GitMeSomeKnowledge from "./GitMeSomeKnowledge";
 import AwsCliCheatsheet from "./AwsCliCheatsheet";
+import ArticlesWorthReading from "./ArticlesWorthReading";
+import UpdatingNestedJavascript from "./UpdatingNestedJavascript";
+import MigratingToReactTable from "./MigratingToReactTable";
 
 export const Posts = [
   {
@@ -24,14 +27,14 @@ export const Posts = [
   },
   {
     title: "Articles worth reading",
-    slug_title: "articles_worth_reading_2",
+    slug_title: "articles_worth_reading",
     summary:
       "Here is a list of articles that I stumbled upon when going through Hackernews and surfing the web that are worth reading.",
     tags: "Reads, Knowledge",
     status: "publish",
     created_at: "2021-09-02",
     updated_at: "2021-11-11",
-    component: "",
+    component: ArticlesWorthReading,
   },
   {
     title: "Updating a nested object in Javascript",
@@ -41,7 +44,7 @@ export const Posts = [
     status: "publish",
     created_at: "2021-06-18",
     updated_at: "2021-06-18",
-    component: "",
+    component: UpdatingNestedJavascript,
   },
   {
     title: "Migrating from Material-table to React-table",
@@ -52,7 +55,7 @@ export const Posts = [
     status: "publish",
     created_at: "2021-05-19",
     updated_at: "2021-06-01",
-    component: "",
+    component: MigratingToReactTable,
   },
   {
     title: "Securely Connecting to remote Postgresql database",
