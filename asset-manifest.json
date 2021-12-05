@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/gh-budash/static/css/main.1b2ac056.chunk.css",
-    "main.js": "/gh-budash/static/js/main.95ff33e3.chunk.js",
-    "main.js.map": "/gh-budash/static/js/main.95ff33e3.chunk.js.map",
-    "runtime-main.js": "/gh-budash/static/js/runtime-main.ce4c3208.js",
-    "runtime-main.js.map": "/gh-budash/static/js/runtime-main.ce4c3208.js.map",
-    "static/js/2.0aff5a25.chunk.js": "/gh-budash/static/js/2.0aff5a25.chunk.js",
-    "static/js/2.0aff5a25.chunk.js.map": "/gh-budash/static/js/2.0aff5a25.chunk.js.map",
-    "index.html": "/gh-budash/index.html",
-    "static/css/main.1b2ac056.chunk.css.map": "/gh-budash/static/css/main.1b2ac056.chunk.css.map",
-    "static/js/2.0aff5a25.chunk.js.LICENSE.txt": "/gh-budash/static/js/2.0aff5a25.chunk.js.LICENSE.txt",
-    "static/media/GitMeSomeKnowledge1.7ffb8982.png": "/gh-budash/static/media/GitMeSomeKnowledge1.7ffb8982.png",
-    "static/media/SecureConnectionDB1.a5785802.jpg": "/gh-budash/static/media/SecureConnectionDB1.a5785802.jpg",
-    "static/media/SecureConnectionDB2.5168a6ea.png": "/gh-budash/static/media/SecureConnectionDB2.5168a6ea.png",
-    "static/media/budash.f2e6a11e.jpg": "/gh-budash/static/media/budash.f2e6a11e.jpg",
-    "static/media/migratingtoreactTable1.9ac3c80b.png": "/gh-budash/static/media/migratingtoreactTable1.9ac3c80b.png",
-    "static/media/migratingtoreactTable2.59a904ac.png": "/gh-budash/static/media/migratingtoreactTable2.59a904ac.png",
-    "static/media/migratingtoreactTable3.7ed2a0c0.jpeg": "/gh-budash/static/media/migratingtoreactTable3.7ed2a0c0.jpeg"
+    "main.css": "/static/css/main.1b2ac056.chunk.css",
+    "main.js": "/static/js/main.aa0d71f7.chunk.js",
+    "main.js.map": "/static/js/main.aa0d71f7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d2cdeb76.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d2cdeb76.js.map",
+    "static/js/2.0aff5a25.chunk.js": "/static/js/2.0aff5a25.chunk.js",
+    "static/js/2.0aff5a25.chunk.js.map": "/static/js/2.0aff5a25.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1b2ac056.chunk.css.map": "/static/css/main.1b2ac056.chunk.css.map",
+    "static/js/2.0aff5a25.chunk.js.LICENSE.txt": "/static/js/2.0aff5a25.chunk.js.LICENSE.txt",
+    "static/media/GitMeSomeKnowledge1.7ffb8982.png": "/static/media/GitMeSomeKnowledge1.7ffb8982.png",
+    "static/media/SecureConnectionDB1.a5785802.jpg": "/static/media/SecureConnectionDB1.a5785802.jpg",
+    "static/media/SecureConnectionDB2.5168a6ea.png": "/static/media/SecureConnectionDB2.5168a6ea.png",
+    "static/media/budash.f2e6a11e.jpg": "/static/media/budash.f2e6a11e.jpg",
+    "static/media/migratingtoreactTable1.9ac3c80b.png": "/static/media/migratingtoreactTable1.9ac3c80b.png",
+    "static/media/migratingtoreactTable2.59a904ac.png": "/static/media/migratingtoreactTable2.59a904ac.png",
+    "static/media/migratingtoreactTable3.7ed2a0c0.jpeg": "/static/media/migratingtoreactTable3.7ed2a0c0.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ce4c3208.js",
+    "static/js/runtime-main.d2cdeb76.js",
     "static/js/2.0aff5a25.chunk.js",
     "static/css/main.1b2ac056.chunk.css",
-    "static/js/main.95ff33e3.chunk.js"
+    "static/js/main.aa0d71f7.chunk.js"
   ]
 }
