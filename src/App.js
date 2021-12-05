@@ -48,7 +48,8 @@ const App = () => {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Router basename="/gh-budash">
+      {/* <Router basename="/gh-budash"> */}
+      <Router basename="">
         <div className={classes.container}>
           <Navbar changeTheme={changeTheme} darkMode={darkMode} />
           <div className="mt-5">
