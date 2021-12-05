@@ -5,6 +5,7 @@ import UpdatingNestedJavascript from "./UpdatingNestedJavascript";
 import MigratingToReactTable from "./MigratingToReactTable";
 import IssuesDevTeam from "./IssuesDevTeam";
 import CreateUserinSQL from "./CreateUserinSQL";
+import SecureConnectionDB from "./SecureConnectionDB";
 
 export const Posts = [
   {
@@ -61,14 +62,14 @@ export const Posts = [
   },
   {
     title: "Securely Connecting to remote Postgresql database",
-    slug_title: "securely_connecting_to_remote_postgresql_database_2",
+    slug_title: "securely_connecting_to_remote_postgresql_database",
     summary:
       "In this article , we discuss on how to remotely connect to Postgres SQl database in secure manner.",
     tags: "Database, Postgres, Dbeaver",
     status: "publish",
     created_at: "2021-05-09",
     updated_at: "2021-06-01",
-    component: "",
+    component: SecureConnectionDB,
   },
   {
     title: "Issues with building a stable Dev team",
