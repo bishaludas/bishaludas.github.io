@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import { routes } from "./posts/PostIndex";
 
 const ShowArticle = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Switch>
       {routes.map((item, key) => (
