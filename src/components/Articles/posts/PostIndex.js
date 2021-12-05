@@ -4,6 +4,7 @@ import ArticlesWorthReading from "./ArticlesWorthReading";
 import UpdatingNestedJavascript from "./UpdatingNestedJavascript";
 import MigratingToReactTable from "./MigratingToReactTable";
 import IssuesDevTeam from "./IssuesDevTeam";
+import CreateUserinSQL from "./CreateUserinSQL";
 
 export const Posts = [
   {
@@ -14,7 +15,7 @@ export const Posts = [
     status: "publish",
     created_at: "2021-12-01",
     updated_at: "2021-12-01",
-    component: "",
+    component: CreateUserinSQL,
   },
   {
     title: "AWS Cli cheatsheet for S3",

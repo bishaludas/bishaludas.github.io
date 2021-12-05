@@ -11,7 +11,7 @@ const UpdatingNestedJavascript = () => {
     <Fragment>
       {/*title*/}
       <Typography variant="h5" color="primary">
-        {/* {article.title} */}Articles worth reading
+        {/* {article.title} */}Updating a nested object in Javascript
       </Typography>
 
       {/*Date and tags*/}
@@ -53,17 +53,13 @@ const UpdatingNestedJavascript = () => {
           first option but it didn't seem efficient as we need to loo through
           all the objects checking if thats the one we need to update.
         </p>
-        <p>
-          <br />
-        </p>
+
         <p>
           Here comes spread operation to rescue, simply store the update object
           in a variable and use it to update in the main object using spread
           operator.
         </p>
-        <p>
-          <br />
-        </p>
+
         <p>Example :</p>
         <p>
           <pre className="ql-syntax" spellCheck="false">

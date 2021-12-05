@@ -45,61 +45,54 @@ const AwsCliCheatsheet = () => {
             &amp; upload files , list all buckets, files and more never leaving
             the terminal. Below is list of useful cli commands for S3.
           </p>
-          <p>
-            <br />
-          </p>
+
           <p>List Buckets</p>
           <pre className="ql-syntax" spellCheck="false">
             aws s3 ls
           </pre>
-          <p>&nbsp;</p>
+
           <p>List files in a Bucket</p>
           <pre className="ql-syntax" spellCheck="false">
             aws s3 ls s3://bucket-name
           </pre>
-          <p>&nbsp;</p>
+
           <p>Create Bucket</p>
           <pre className="ql-syntax" spellCheck="false">
             aws s3 mb s3://bucket-name make_bucket: bucket-name
           </pre>
-          <p>&nbsp;</p>
+
           <p>Delete Bucket</p>
           <pre className="ql-syntax" spellCheck="false">
             aws s3 rb s3://bucket-name --force
           </pre>
-          <p>&nbsp;</p>
+
           <p>Download S3 object to local</p>
           <pre className="ql-syntax" spellCheck="false">
             aws s3 cp s3://bucket-name/file.txt ~/Desktop/file.txt download:
             ./backup.tar from s3://bucket-name/file.txt to Dextop/file.txt
           </pre>
-          <p>
-            <br />
-          </p>
+
           <p>Upload local file as S3 object</p>
           <pre className="ql-syntax" spellCheck="false">
             aws s3 cp backup.tar s3://bucket-name upload: ./backup.tar to
             s3://bucket-name/backup.tar
           </pre>
-          <p>&nbsp;</p>
+
           <p>Delete S3 object</p>
           <pre className="ql-syntax" spellCheck="false">
             aws s3 rm s3://bucket-name/secret-file.gz . delete:
             s3://bucket-name/secret-file.gz
           </pre>
-          <p>&nbsp;</p>
+
           <p>Download bucket to local</p>
           <pre className="ql-syntax" spellCheck="false">
             aws s3 sync s3://bucket-name/ /media/pasport-ultra/backup
           </pre>
-          <p>&nbsp;</p>
+
           <p>Upload local directory to bucket</p>
           <pre className="ql-syntax" spellCheck="false">
             aws s3 sync (directory) s3://bucket-name/
           </pre>
-          <p>
-            <br />
-          </p>
         </Typography>
       </article>
     </Fragment>
