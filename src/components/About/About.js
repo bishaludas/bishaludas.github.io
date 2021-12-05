@@ -74,7 +74,7 @@ const About = () => {
         <LinkedInIcon />
       </a>
       <a
-        href="https://github.com/bishaludas"
+        href="https://github.com/bishaludash"
         target="_blank"
         rel="noreferrer"
         className={classes.links}
