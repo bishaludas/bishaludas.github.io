@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/gh-budash/static/css/main.1b2ac056.chunk.css",
-    "main.js": "/gh-budash/static/js/main.f61f1ece.chunk.js",
-    "main.js.map": "/gh-budash/static/js/main.f61f1ece.chunk.js.map",
+    "main.js": "/gh-budash/static/js/main.e72fb777.chunk.js",
+    "main.js.map": "/gh-budash/static/js/main.e72fb777.chunk.js.map",
     "runtime-main.js": "/gh-budash/static/js/runtime-main.ce4c3208.js",
     "runtime-main.js.map": "/gh-budash/static/js/runtime-main.ce4c3208.js.map",
-    "static/js/2.9f2ccd07.chunk.js": "/gh-budash/static/js/2.9f2ccd07.chunk.js",
-    "static/js/2.9f2ccd07.chunk.js.map": "/gh-budash/static/js/2.9f2ccd07.chunk.js.map",
+    "static/js/2.0aff5a25.chunk.js": "/gh-budash/static/js/2.0aff5a25.chunk.js",
+    "static/js/2.0aff5a25.chunk.js.map": "/gh-budash/static/js/2.0aff5a25.chunk.js.map",
     "index.html": "/gh-budash/index.html",
     "static/css/main.1b2ac056.chunk.css.map": "/gh-budash/static/css/main.1b2ac056.chunk.css.map",
-    "static/js/2.9f2ccd07.chunk.js.LICENSE.txt": "/gh-budash/static/js/2.9f2ccd07.chunk.js.LICENSE.txt",
+    "static/js/2.0aff5a25.chunk.js.LICENSE.txt": "/gh-budash/static/js/2.0aff5a25.chunk.js.LICENSE.txt",
+    "static/media/SecureConnectionDB1.a5785802.jpg": "/gh-budash/static/media/SecureConnectionDB1.a5785802.jpg",
+    "static/media/SecureConnectionDB2.5168a6ea.png": "/gh-budash/static/media/SecureConnectionDB2.5168a6ea.png",
     "static/media/budash.f2e6a11e.jpg": "/gh-budash/static/media/budash.f2e6a11e.jpg",
     "static/media/migratingtoreactTable1.9ac3c80b.png": "/gh-budash/static/media/migratingtoreactTable1.9ac3c80b.png",
     "static/media/migratingtoreactTable2.59a904ac.png": "/gh-budash/static/media/migratingtoreactTable2.59a904ac.png",
@@ -17,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ce4c3208.js",
-    "static/js/2.9f2ccd07.chunk.js",
+    "static/js/2.0aff5a25.chunk.js",
     "static/css/main.1b2ac056.chunk.css",
-    "static/js/main.f61f1ece.chunk.js"
+    "static/js/main.e72fb777.chunk.js"
   ]
 }
