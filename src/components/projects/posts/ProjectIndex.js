@@ -1,11 +1,11 @@
-import NamecheapApi from "./NamecheapApi";
+import Eisei from "./Eisei";
 import NepseApi from "./NepseApi";
+import NamecheapApi from "./NamecheapApi";
 
 export const Posts = [
   {
-    title: "AWS Cli cheatsheet for S3",
-    slug_title: "aws_cli_cheatsheet_for_s3",
-    summary: "Collection of helpful  cli commands for S3 bucket",
+    title: "NEPSE-Api",
+    slug_title: "nepse-api",
     tags: "aws, s3, aws cli",
     status: "publish",
     created_at: "2021-10-20",
@@ -14,14 +14,22 @@ export const Posts = [
   },
 
   {
-    title: "Git me some knowledge",
-    slug_title: "git_me_some_knowledge_2",
-    summary: "A post on funny issue I encountered with git.",
+    title: "Eisei : A space adventure game",
+    slug_title: "eisei",
     tags: "Git",
     status: "publish",
     created_at: "2021-02-21",
     updated_at: "2021-06-01",
-    component: NamecheapApi,
+    component: Eisei,
+  },
+  {
+    title: "Namecheap Api",
+    slug_title: "namecheap_api",
+    tags: "Git",
+    status: "publish",
+    created_at: "2021-02-21",
+    updated_at: "2021-06-01",
+    component: Eisei,
   },
 ];
 
