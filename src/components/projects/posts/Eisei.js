@@ -1,9 +1,13 @@
 import React from "react";
 import eisei from "./images/eisei.jpeg";
+import Typography from "@material-ui/core/Typography";
 
 const Eisei = () => {
   return (
     <article>
+      <Typography variant="h5" color="primary">
+        Eisei : A space adventure game
+      </Typography>
       <div>
         <p>
           The word Eisei means satellite in Japanese, I found this word when

@@ -1,33 +1,50 @@
 import React from "react";
-import nepse from "./images/nepse.png";
+import Typography from "@material-ui/core/Typography";
+import namecheap1 from "./images/namecheap1.png";
+import namecheap2 from "./images/namecheap2.png";
 
 const NamecheapApi = () => {
   return (
     <article>
+      <Typography variant="h5" color="primary">
+        Namecheap Api
+      </Typography>
+
       <p>
-        There is no free NEPSE api resourse provider so I decided to make one
-        for my own. This project provides api for 3 things:
+        When I was working for Mobwizards, we had to migrate to a new VPS server
+        with higher specs and it was a tedious job to update the DNS host
+        records for each domain (130 plus at the time). Dept head suggested we
+        use the namecheap api to update add domains at once, so i began my
+        research and started working on the script. My finished script would
+        read domains from a file which was stored in array and update DNS
+        records for each.
       </p>
-      <ol>
-        <li>Todays Share</li>
-        <li>Top Gainers</li>
-        <li>Top Loosers</li>
-      </ol>
+
       <p>
-        <br />
-      </p>
-      <p>
-        <img src={nepse} alt="nepse api page" />
-      </p>
-      <p>
-        Here is the Github link:{" "}
+        Later as our project grew, I integrated bunch of namecheap api into our
+        application as requested by the marketing team which helped improve
+        efficiency. The{" "}
         <a
-          href="https://bishaludash.github.io/NEPSE-Api/"
+          href="https://www.namecheap.com/support/api/methods/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          NEPSE-Api
-        </a>
+          api
+        </a>{" "}
+        are as below :
+      </p>
+      <ul>
+        <li>Domains : getList, create, check, renew, getInfo</li>
+        <li>Domains.dns : getList, getHosts ,setHosts</li>
+        <li>Users: getPricing, update</li>
+      </ul>
+
+      <p>
+        <img src={namecheap1} alt="nepse api page" />
+      </p>
+
+      <p>
+        <img src={namecheap2} alt="nepse api page" />
       </p>
     </article>
   );

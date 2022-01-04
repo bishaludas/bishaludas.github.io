@@ -8,8 +8,8 @@ export const Posts = [
     slug_title: "nepse-api",
     tags: "aws, s3, aws cli",
     status: "publish",
-    created_at: "2021-10-20",
-    updated_at: "2021-10-20",
+    created_at: "2020-10-20",
+    updated_at: "2020-10-20",
     component: NepseApi,
   },
 
@@ -18,8 +18,8 @@ export const Posts = [
     slug_title: "eisei",
     tags: "Git",
     status: "publish",
-    created_at: "2021-02-21",
-    updated_at: "2021-06-01",
+    created_at: "2020-02-21",
+    updated_at: "2020-06-01",
     component: Eisei,
   },
   {
@@ -29,7 +29,7 @@ export const Posts = [
     status: "publish",
     created_at: "2021-02-21",
     updated_at: "2021-06-01",
-    component: Eisei,
+    component: NamecheapApi,
   },
 ];
 

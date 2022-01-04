@@ -1,9 +1,13 @@
 import React from "react";
 import nepse from "./images/nepse.png";
+import Typography from "@material-ui/core/Typography";
 
 const NepseApi = () => {
   return (
     <article>
+      <Typography variant="h5" color="primary">
+        NEPSE-Api
+      </Typography>
       <p>
         There is no free NEPSE api resourse provider so I decided to make one
         for my own. This project provides api for 3 things:
