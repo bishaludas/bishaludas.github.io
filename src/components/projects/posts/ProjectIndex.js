@@ -1,6 +1,7 @@
 import Eisei from "./Eisei";
 import NepseApi from "./NepseApi";
 import NamecheapApi from "./NamecheapApi";
+import DockerImage from "./DockerImage";
 
 export const Posts = [
   {
@@ -30,6 +31,15 @@ export const Posts = [
     created_at: "2021-02-21",
     updated_at: "2021-06-01",
     component: NamecheapApi,
+  },
+  {
+    title: "Docker Image to run legacy codebase",
+    slug_title: "Docker_image_to_run_legacy_codebase",
+    tags: "Docker",
+    status: "publish",
+    created_at: "2020-12-21",
+    updated_at: "2020-12-21",
+    component: DockerImage,
   },
 ];
 
