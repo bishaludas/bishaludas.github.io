@@ -6,8 +6,7 @@ import MigratingtoreactTable1 from "./images/migratingtoreactTable1.png";
 import MigratingtoreactTable2 from "./images/migratingtoreactTable2.png";
 import migratingtoreactTable3 from "./images/migratingtoreactTable3.jpeg";
 
-const MigratingToReactTable = () => {
-  let tags = ["React", "Optimization"];
+const MigratingToReactTable = (props) => {
   const classes = useStyles();
 
   return (
@@ -24,28 +23,33 @@ const MigratingToReactTable = () => {
         style={{ marginBottom: "1rem" }}
       >
         {/* {new Date(article.created_at).toDateString()} */}
-        {new Date("2021-05-19").toDateString()}
-        {tags.length > 0
-          ? tags.map((item, key) => (
-              <Chip
-                key={key}
-                size="small"
-                label={item}
-                color="secondary"
-                className={classes.pills}
-              />
-            ))
+        {new Date(props.createdAt).toDateString()}
+        {props.tags.split(",").length > 0
+          ? props.tags
+              .split(",")
+              .map((item, key) => (
+                <Chip
+                  key={key}
+                  size="small"
+                  label={item}
+                  color="secondary"
+                  className={classes.pills}
+                />
+              ))
           : null}
       </Typography>
 
-      <Typography variant="caption" display="block">
-        <Chip
-          size="small"
-          label={`Edited : ${new Date("2021-06-01").toDateString()}`}
-          color="secondary"
-          className={classes.pills}
-        />
-      </Typography>
+      {/* Edited date */}
+      {props.createdAt !== props.updatedAt ? (
+        <Typography variant="caption" display="block">
+          <Chip
+            size="small"
+            label={`Edited : ${new Date(props.updatedAt).toDateString()}`}
+            color="secondary"
+            className={classes.pills}
+          />
+        </Typography>
+      ) : null}
 
       {/*content*/}
       <article>

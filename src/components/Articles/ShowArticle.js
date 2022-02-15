@@ -8,11 +8,13 @@ const ShowArticle = () => {
   }, []);
   return (
     <Switch>
+      {/* Route to post component along with dates */}
       {routes.map((item, key) => (
         <Route
           exact
           path={`/articles/${item.slug_title}`}
-          component={item.component}
+          render={(props) =><item.component {...props}  createdAt={item.created_at} 
+          updatedAt={item.updated_at} tags={item.tags}/>}
           key={key}
         />
       ))}

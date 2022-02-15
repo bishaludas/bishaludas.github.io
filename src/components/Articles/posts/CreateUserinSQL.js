@@ -3,8 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
 import { makeStyles } from "@material-ui/core/styles";
 
-const CreateUserinSQL = () => {
-  let tags = ["Database", "Postgres", "SQL server", "Mysql"];
+const CreateUserinSQL = (props) => {
   const classes = useStyles();
 
   return (
@@ -21,19 +20,33 @@ const CreateUserinSQL = () => {
         style={{ marginBottom: "2rem" }}
       >
         {/* {new Date(article.created_at).toDateString()} */}
-        {new Date("2021-12-01").toDateString()}
-        {tags.length > 0
-          ? tags.map((item, key) => (
-              <Chip
-                key={key}
-                size="small"
-                label={item}
-                color="secondary"
-                className={classes.pills}
-              />
-            ))
+        {new Date(props.createdAt).toDateString()}
+        {props.tags.split(",").length > 0
+          ? props.tags
+              .split(",")
+              .map((item, key) => (
+                <Chip
+                  key={key}
+                  size="small"
+                  label={item}
+                  color="secondary"
+                  className={classes.pills}
+                />
+              ))
           : null}
       </Typography>
+
+      {/* Edited date */}
+      {props.createdAt !== props.updatedAt ? (
+        <Typography variant="caption" display="block">
+          <Chip
+            size="small"
+            label={`Edited : ${new Date(props.updatedAt).toDateString()}`}
+            color="secondary"
+            className={classes.pills}
+          />
+        </Typography>
+      ) : null}
 
       {/*content*/}
       <article>

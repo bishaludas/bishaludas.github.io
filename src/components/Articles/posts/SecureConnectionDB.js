@@ -5,8 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import SecureConnectionDB1 from "./images/SecureConnectionDB1.jpg";
 import SecureConnectionDB2 from "./images/SecureConnectionDB2.png";
 
-const SecureConnectionDB = () => {
-  let tags = ["Database", "Postgres", "Dbeaver"];
+const SecureConnectionDB = (props) => {
   const classes = useStyles();
 
   return (
@@ -23,28 +22,33 @@ const SecureConnectionDB = () => {
         style={{ marginBottom: "1rem" }}
       >
         {/* {new Date(article.created_at).toDateString()} */}
-        {new Date("2021-05-09").toDateString()}
-        {tags.length > 0
-          ? tags.map((item, key) => (
-              <Chip
-                key={key}
-                size="small"
-                label={item}
-                color="secondary"
-                className={classes.pills}
-              />
-            ))
+        {new Date(props.createdAt).toDateString()}
+        {props.tags.split(",").length > 0
+          ? props.tags
+              .split(",")
+              .map((item, key) => (
+                <Chip
+                  key={key}
+                  size="small"
+                  label={item}
+                  color="secondary"
+                  className={classes.pills}
+                />
+              ))
           : null}
       </Typography>
 
-      <Typography variant="caption" display="block">
-        <Chip
-          size="small"
-          label={`Edited : ${new Date("2021-11-11").toDateString()}`}
-          color="secondary"
-          className={classes.pills}
-        />
-      </Typography>
+      {/* Edited date */}
+      {props.createdAt !== props.updatedAt ? (
+        <Typography variant="caption" display="block">
+          <Chip
+            size="small"
+            label={`Edited : ${new Date(props.updatedAt).toDateString()}`}
+            color="secondary"
+            className={classes.pills}
+          />
+        </Typography>
+      ) : null}
 
       {/*content*/}
       <article>
@@ -61,7 +65,7 @@ const SecureConnectionDB = () => {
           was confused and lost on how to connect to remote DB, after spending
           hours on google and stackoverflow I found a way by editing the
           postgres's configurations file. However this method allowed all IPs to
-          make connection to database, one could brute fore his way making the
+          make connection to database, one could brute force his way making the
           database laggy or even compromised.
         </p>
 
@@ -73,7 +77,7 @@ const SecureConnectionDB = () => {
           key(your path to private ssh key). Also passphrase if you use one.
         </p>
         <img src={SecureConnectionDB1} alt="BigCo Inc. logo" />
-        <p>In Main tab, in sert your remote database credentials as below.</p>
+        <p>In Main tab, insert your remote database credentials as below.</p>
         <img src={SecureConnectionDB2} alt="BigCo Inc. logo" />
 
         <p>

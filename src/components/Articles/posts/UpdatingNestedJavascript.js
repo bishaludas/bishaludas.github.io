@@ -3,8 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
 import { makeStyles } from "@material-ui/core/styles";
 
-const UpdatingNestedJavascript = () => {
-  let tags = ["javascript"];
+const UpdatingNestedJavascript = (props) => {
   const classes = useStyles();
 
   return (
@@ -21,29 +20,33 @@ const UpdatingNestedJavascript = () => {
         style={{ marginBottom: "1rem" }}
       >
         {/* {new Date(article.created_at).toDateString()} */}
-        {new Date("2021-06-18").toDateString()}
-        {tags.length > 0
-          ? tags.map((item, key) => (
-              <Chip
-                key={key}
-                size="small"
-                label={item}
-                color="secondary"
-                className={classes.pills}
-              />
-            ))
+        {new Date(props.createdAt).toDateString()}
+        {props.tags.split(",").length > 0
+          ? props.tags
+              .split(",")
+              .map((item, key) => (
+                <Chip
+                  key={key}
+                  size="small"
+                  label={item}
+                  color="secondary"
+                  className={classes.pills}
+                />
+              ))
           : null}
       </Typography>
 
-      {/* Edited */}
-      {/* <Typography variant="caption" display="block">
-        <Chip
-          size="small"
-          label={`Edited : ${new Date("2021-11-11").toDateString()}`}
-          color="secondary"
-          className={classes.pills}
-        />
-      </Typography> */}
+      {/* Edited date */}
+      {props.createdAt !== props.updatedAt ? (
+        <Typography variant="caption" display="block">
+          <Chip
+            size="small"
+            label={`Edited : ${new Date(props.updatedAt).toDateString()}`}
+            color="secondary"
+            className={classes.pills}
+          />
+        </Typography>
+      ) : null}
 
       {/*content*/}
       <article>
@@ -61,7 +64,7 @@ const UpdatingNestedJavascript = () => {
         </p>
 
         <p>Example :</p>
-        <p>
+        <div>
           <pre className="ql-syntax" spellCheck="false">
             let data =
             {JSON.stringify(
@@ -98,10 +101,10 @@ const UpdatingNestedJavascript = () => {
             let test = {`{ ...data, ...newData }`};<br />
             console.log(test)
           </pre>
-        </p>
+        </div>
 
         <p>Result :</p>
-        <p>
+        <div>
           <pre className="ql-syntax" spellCheck="false">
             {JSON.stringify(
               {
@@ -113,7 +116,7 @@ const UpdatingNestedJavascript = () => {
             )}
           </pre>
           <br />
-        </p>
+        </div>
       </article>
     </Fragment>
   );

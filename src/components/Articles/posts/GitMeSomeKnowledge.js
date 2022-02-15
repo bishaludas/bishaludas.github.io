@@ -4,8 +4,7 @@ import Chip from "@material-ui/core/Chip";
 import { makeStyles } from "@material-ui/core/styles";
 import GitMeSomeKnowledge1 from "./images/GitMeSomeKnowledge1.png";
 
-const GitMeSomeKnowledge = () => {
-  let tags = ["git"];
+const GitMeSomeKnowledge = (props) => {
   const classes = useStyles();
 
   return (
@@ -22,19 +21,33 @@ const GitMeSomeKnowledge = () => {
         style={{ marginBottom: "2rem" }}
       >
         {/* {new Date(article.created_at).toDateString()} */}
-        {new Date().toDateString()}
-        {tags.length > 0
-          ? tags.map((item, key) => (
-              <Chip
-                key={key}
-                size="small"
-                label={item}
-                color="secondary"
-                className={classes.pills}
-              />
-            ))
+        {new Date(props.createdAt).toDateString()}
+        {props.tags.split(",").length > 0
+          ? props.tags
+              .split(",")
+              .map((item, key) => (
+                <Chip
+                  key={key}
+                  size="small"
+                  label={item}
+                  color="secondary"
+                  className={classes.pills}
+                />
+              ))
           : null}
       </Typography>
+
+      {/* Edited date */}
+      {props.createdAt !== props.updatedAt ? (
+        <Typography variant="caption" display="block">
+          <Chip
+            size="small"
+            label={`Edited : ${new Date(props.updatedAt).toDateString()}`}
+            color="secondary"
+            className={classes.pills}
+          />
+        </Typography>
+      ) : null}
 
       {/*content*/}
       <article>
@@ -45,7 +58,7 @@ const GitMeSomeKnowledge = () => {
           globally.
         </p>
 
-        <pre class="ql-syntax" spellcheck="false">
+        <pre className="ql-syntax" spellCheck="false">
           git config --global user.name "Your global username" <br />
           git config --global user.email "office email"
         </pre>
@@ -100,7 +113,7 @@ const GitMeSomeKnowledge = () => {
           work email for work specific configuration.Set the username/email for
           a specific repository
         </p>
-        <pre class="ql-syntax" spellcheck="false">
+        <pre className="ql-syntax" spellCheck="false">
           # change directory to project directory and run command below <br />
           cd &lt;project/directory&gt; <br />
           git config user.name "Your project specific name" <br />

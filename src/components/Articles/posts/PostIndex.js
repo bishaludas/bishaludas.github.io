@@ -6,6 +6,7 @@ import MigratingToReactTable from "./MigratingToReactTable";
 import IssuesDevTeam from "./IssuesDevTeam";
 import CreateUserinSQL from "./CreateUserinSQL";
 import SecureConnectionDB from "./SecureConnectionDB";
+import Serverless from "./Serverless";
 
 export const Posts = [
   {
@@ -90,6 +91,16 @@ export const Posts = [
     created_at: "2021-02-21",
     updated_at: "2021-06-01",
     component: GitMeSomeKnowledge,
+  },
+  {
+    title: "Getting started with Serverless 101",
+    slug_title: "serverless_101",
+    summary: "A brief summary on my take on serverless and how I used it.",
+    tags: "AWS, Lambda",
+    status: "publish",
+    created_at: "2022-02-15",
+    updated_at: "2022-02-15",
+    component: Serverless,
   },
 ];
 

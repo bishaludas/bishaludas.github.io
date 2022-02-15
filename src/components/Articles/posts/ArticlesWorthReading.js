@@ -3,8 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
 import { makeStyles } from "@material-ui/core/styles";
 
-const ArticlesWorthReading = () => {
-  let tags = ["git"];
+const ArticlesWorthReading = (props) => {
   const classes = useStyles();
 
   return (
@@ -21,28 +20,33 @@ const ArticlesWorthReading = () => {
         style={{ marginBottom: "1rem" }}
       >
         {/* {new Date(article.created_at).toDateString()} */}
-        {new Date("2021-09-02").toDateString()}
-        {tags.length > 0
-          ? tags.map((item, key) => (
-              <Chip
-                key={key}
-                size="small"
-                label={item}
-                color="secondary"
-                className={classes.pills}
-              />
-            ))
+        {new Date(props.createdAt).toDateString()}
+        {props.tags.split(",").length > 0
+          ? props.tags
+              .split(",")
+              .map((item, key) => (
+                <Chip
+                  key={key}
+                  size="small"
+                  label={item}
+                  color="secondary"
+                  className={classes.pills}
+                />
+              ))
           : null}
       </Typography>
 
-      <Typography variant="caption" display="block">
-        <Chip
-          size="small"
-          label={`Edited : ${new Date("2021-11-11").toDateString()}`}
-          color="secondary"
-          className={classes.pills}
-        />
-      </Typography>
+      {/* Edited date */}
+      {props.createdAt !== props.updatedAt ? (
+        <Typography variant="caption" display="block">
+          <Chip
+            size="small"
+            label={`Edited : ${new Date(props.updatedAt).toDateString()}`}
+            color="secondary"
+            className={classes.pills}
+          />
+        </Typography>
+      ) : null}
 
       {/*content*/}
       <article>
