@@ -51,7 +51,7 @@ const Serverless = (props) => {
       {/*content*/}
       <article>
         <p>
-          First time I heard the term Serverless was from my girlfriend's sister
+          First time I heard the term Serverless was from my school classmate
           (Software Developer), she asked me "Have you worked with Lambda ?".
           This was mid 2019 and I had recently joined a company that was using
           AWS as its cloud infrastructure. I had just started to work with some
