@@ -1,5 +1,5 @@
 {
-  "homepage": "http://bishaludash.github.io/",
+  "homepage": "http://bishaludash.com.np",
   "name": "gh-budash",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "deploy": "react-scripts build && cp build/index.html build/404.html && gh-pages -d build",
+    "deploy": "react-scripts build && cp build/index.html build/404.html && echo 'bishaludash.com.np' > build/CNAME && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
