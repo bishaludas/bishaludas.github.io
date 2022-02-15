@@ -140,7 +140,7 @@ const Serverless = (props) => {
           <a
             href="https://www.cloudflare.com/learning/serverless/why-use-serverless/"
             rel="noreferrer"
-            targer="_blank"
+            target="_blank"
           >
             Link
           </a>
