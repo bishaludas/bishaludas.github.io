@@ -54,7 +54,7 @@ const Serverless = (props) => {
           First time I heard the term Serverless was from my girlfriend's sister
           (Software Developer), she asked me "Have you worked with Lambda ?".
           This was mid 2019 and I had recently joined a company that was using
-          AWS for its cloud infrastructure. I had just started to work with some
+          AWS as its cloud infrastructure. I had just started to work with some
           AWS services like S3 bucket, EC2 & RDS and I was clueless about it.
         </p>
 
@@ -73,7 +73,7 @@ const Serverless = (props) => {
         <p className="mt-0">
           The dotnet code was independent of the backend framework, often would
           generate new unwanted files whenever making a build and was a tedious
-          job to maintaine dotnet version and required packages. My project lead
+          job to maintaine dotnet version and packages. My project lead
           mentioned the flow was synchronomous and would take time to complete
           when given huge data.
         </p>
@@ -86,7 +86,7 @@ const Serverless = (props) => {
           to lambda function (Serverless), treat it as a microservice and
           explained how the architecture would look like.
           <br />I implemented the necessary code changes and worte some
-          optimization for buld insert, performed tests and added a entry point
+          optimization for bulk insert, performed tests and added a entry point
           for lambda. Then added a trigger to lambda, it would be triggered
           whenever a new file is put into s3 bucket. Finally, made a build and
           uploaded the zip file to lambda.
