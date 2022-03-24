@@ -29,8 +29,8 @@ const About = () => {
       <p>
         Hi, I'm Bishal! I'm a full-stack engineer with a passion for building
         beautiful things from scratch. I've been building websites and saas
-        services since 2017. I love working with React, Laravel and Express more about
-        them in{" "}
+        services since 2017. I love working with React, Laravel and Express more
+        about them in{" "}
         {
           <Link to="/stack" className={classes.links}>
             Stack
@@ -60,8 +60,8 @@ const About = () => {
       </p>
       <p>
         You can reach me at{" "}
-        <a href="mailto: me@budash.net" className={classes.links}>
-          me@budash.net
+        <a href="mailto: me@bishaludash.com.np" className={classes.links}>
+          me@bishaludash.com.np
         </a>{" "}
       </p>
 
