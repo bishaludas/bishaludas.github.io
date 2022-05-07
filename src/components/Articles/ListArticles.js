@@ -44,35 +44,36 @@ const ListArticles = () => {
   return (
     <Fragment>
       {/*Article start*/}
-      {routes.map((item, key) => (
-        <div className={classes.article} key={key}>
-          <div className={classes.articleDate}>
-            {new Date(item.created_at).toDateString()}
-            <span className="ml-3">{showTags(item.tags)}</span>
+      {routes.map((item, key) =>
+        item.status === "publish" ? (
+          <div className={classes.article} key={key}>
+            <div className={classes.articleDate}>
+              {new Date(item.created_at).toDateString()}
+              <span className="ml-3">{showTags(item.tags)}</span>
+            </div>
+
+            <Link to={`/articles/${item.slug_title}`} className={classes.links}>
+              <Typography variant="h5" color="primary">
+                {item.title}
+              </Typography>
+            </Link>
+
+            <Typography variant="body2" gutterBottom>
+              {item.summary}
+            </Typography>
+
+            <Link to={`/articles/${item.slug_title}`} className={classes.links}>
+              <Typography gutterBottom color="primary">
+                Read this article
+                <ArrowRightAltIcon
+                  variant="overline"
+                  style={{ marginBottom: "-10px", marginLeft: "10px" }}
+                />
+              </Typography>
+            </Link>
           </div>
-
-          <Link to={`/articles/${item.slug_title}`} className={classes.links}>
-            <Typography variant="h5" color="primary">
-              {item.title}
-            </Typography>
-          </Link>
-
-          <Typography variant="body2" gutterBottom>
-            {item.summary}
-          </Typography>
-
-          <Link to={`/articles/${item.slug_title}`} className={classes.links}>
-            <Typography gutterBottom color="primary">
-              Read this article
-              <ArrowRightAltIcon
-                variant="overline"
-                style={{ marginBottom: "-10px", marginLeft: "10px" }}
-              />
-            </Typography>
-          </Link>
-        </div>
-      ))}
-
+        ) : null
+      )}
       {/*Article End*/}
     </Fragment>
   );

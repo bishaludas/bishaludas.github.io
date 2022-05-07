@@ -36,6 +36,10 @@ article img{
   max-width: 100%;
 }
 
+.article-list li {
+  margin-bottom: 2%;
+}
+
 /* Bootstrap helper styles */
 /* bootstrap helper class */
 .m-0 {	margin: 0 !important;}

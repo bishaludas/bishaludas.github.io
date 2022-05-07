@@ -7,6 +7,7 @@ import IssuesDevTeam from "./IssuesDevTeam";
 import CreateUserinSQL from "./CreateUserinSQL";
 import SecureConnectionDB from "./SecureConnectionDB";
 import Serverless from "./Serverless";
+import NoVpsAnymore from "./NoVpsAnymore";
 
 export const Posts = [
   {
@@ -101,6 +102,17 @@ export const Posts = [
     created_at: "2022-02-15",
     updated_at: "2022-02-15",
     component: Serverless,
+  },
+  {
+    title: "I Don't need a VPS anymore",
+    slug_title: "no_vps_anymore",
+    summary:
+      "My 2 years adventure of managing VPS has come to an end. In this article, I share about my experience, growth and accepting the modern technologies to make my life easier.",
+    tags: "Server, VPS, Linux",
+    status: "publish",
+    created_at: "2022-05-07",
+    updated_at: "2022-05-07",
+    component: NoVpsAnymore,
   },
 ];
 
