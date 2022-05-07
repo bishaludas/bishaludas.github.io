@@ -179,7 +179,7 @@ const NoVpsAnymore = (props) => {
           key safe and not pushing credentials into public git repository.
         </p>
         <p>
-          As of year 2020, you have multiple ways for deploying online and
+          As of year 2022, you have multiple ways for deploying online and
           deploying using SaaS is an option. It is up to your own opinion. I
           feel that my new setup is good enough.
         </p>
