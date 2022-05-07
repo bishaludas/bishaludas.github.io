@@ -176,7 +176,7 @@ const NoVpsAnymore = (props) => {
         <p className="mt-5">
           With the new setup, I still have some responsibility for security ,
           that is responsibility for my own credentials, keeping my private SSH
-          key safe and pushing credentials into public git repository.
+          key safe and not pushing credentials into public git repository.
         </p>
         <p>
           As of year 2020, you have multiple ways for deploying online and
