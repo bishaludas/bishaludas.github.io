@@ -159,7 +159,7 @@ const NoVpsAnymore = (props) => {
             github-pages its a one line code that makes a new build and updates
             changes to github-pages. The changes are reflected within 30s- 1min.
             <pre className="ql-syntax" spellCheck="false">
-              yarn run deploy
+              yarn deploy
             </pre>
           </li>
 
