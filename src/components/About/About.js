@@ -29,8 +29,8 @@ const About = () => {
       <p>
         Hi, I'm Bishal! I'm a full-stack engineer with a passion for building
         beautiful things from scratch. I've been building websites and saas
-        services since 2017. I love working with React, Laravel and Express more
-        about them in{" "}
+        services since 2017. I love working with React, Express and Postgress,
+        more about them in{" "}
         {
           <Link to="/stack" className={classes.links}>
             Stack
@@ -49,14 +49,17 @@ const About = () => {
         >
           Wolfmatrix
         </a>
-        , software development company established in Nepal with the mission to
-        make every business better by understanding its requirement and
-        providing a custom system or technical solution and partnership.
+        , as a Sr. Software Engineer where I work on solving challenging
+        problems and mentor associate developers to help them grow to be project
+        ready.
       </p>
 
       <p>
-        I work on challenging projects and I enjoy writing about it. I
-        occasionally make myself available for contract work and consultancy.
+        I have worked with on projects for companies such Chaudhary Group,
+        Mobwizards, Cloudchomp, Vline ,Metro Trains and others. I occasionally
+        make myself available for contract work and consultancy. Please dont
+        hesitate to contact me for web application , desktop application
+        development.
       </p>
       <p>
         You can reach me at{" "}
