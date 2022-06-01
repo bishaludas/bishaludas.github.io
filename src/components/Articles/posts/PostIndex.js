@@ -13,7 +13,7 @@ export const Posts = [
   {
     title: "Creating user in Postgres, SQL Server and Mysql",
     slug_title: "creating_user_in_postgres_sqlserver_mysql",
-    summary: "Collection of helpful  cli commands for S3 bucket",
+    summary: "Straight to the point SQL queries to create users in some of popular relational databases.",
     tags: "Database, Postgres, SQL server, Mysql",
     status: "publish",
     created_at: "2021-12-01",

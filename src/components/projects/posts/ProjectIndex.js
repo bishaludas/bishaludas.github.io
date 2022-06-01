@@ -2,6 +2,7 @@ import Eisei from "./Eisei";
 import NepseApi from "./NepseApi";
 import NamecheapApi from "./NamecheapApi";
 import DockerImage from "./DockerImage";
+import MyFirstCloudArchitecture from "./MyFirstCloudArchitecture";
 
 export const Posts = [
   {
@@ -40,6 +41,17 @@ export const Posts = [
     created_at: "2020-12-21",
     updated_at: "2020-12-21",
     component: DockerImage,
+  },
+  {
+    title: "My First Cloud Architecture",
+    slug_title: "creating_user_in_postgres_sqlserver_mysql",
+    summary:
+      "I build an auto-scalable cloud architecture build on top of AWS Elastic container service using Fargate as compute resource.",
+    tags: "AWS, Cloud, DevOps, Container",
+    status: "publish",
+    created_at: "2022-06-01",
+    updated_at: "2022-06-01",
+    component: MyFirstCloudArchitecture,
   },
 ];
 
