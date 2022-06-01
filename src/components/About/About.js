@@ -54,11 +54,10 @@ const About = () => {
       </p>
 
       <p>
-        I have worked with on projects for companies such Chaudhary Group,
+        I have worked on projects for companies such Chaudhary Group,
         Mobwizards, Cloudchomp, Vline ,Metro Trains and others. I occasionally
         make myself available for contract work and consultancy. Please dont
-        hesitate to contact me for web application , desktop application
-        development.
+        hesitate to contact me.
       </p>
       <p>
         You can reach me at{" "}
