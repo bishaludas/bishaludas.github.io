@@ -50,8 +50,7 @@ const About = () => {
           Wolfmatrix
         </a>
         , as a Sr. Software Engineer where I work on solving challenging
-        problems and mentor associate developers to help them grow to be project
-        ready.
+        problems, build cloud architecture and mentor associate developers.
       </p>
 
       <p>
