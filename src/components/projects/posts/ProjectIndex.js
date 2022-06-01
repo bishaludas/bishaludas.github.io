@@ -44,7 +44,7 @@ export const Posts = [
   },
   {
     title: "My First Cloud Architecture",
-    slug_title: "creating_user_in_postgres_sqlserver_mysql",
+    slug_title: "aws_cloud_architecture",
     summary:
       "I build an auto-scalable cloud architecture build on top of AWS Elastic container service using Fargate as compute resource.",
     tags: "AWS, Cloud, DevOps, Container",
