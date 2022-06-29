@@ -13,7 +13,8 @@ export const Posts = [
   {
     title: "Creating user in Postgres, SQL Server and Mysql",
     slug_title: "creating_user_in_postgres_sqlserver_mysql",
-    summary: "Straight to the point SQL queries to create users in some of popular relational databases.",
+    summary:
+      "Straight to the point SQL queries to create users in some of popular relational databases.",
     tags: "Database, Postgres, SQL server, Mysql",
     status: "publish",
     created_at: "2021-12-01",
@@ -38,7 +39,7 @@ export const Posts = [
     tags: "Reads, Knowledge",
     status: "publish",
     created_at: "2021-09-02",
-    updated_at: "2021-11-11",
+    updated_at: "2022-06-29",
     component: ArticlesWorthReading,
   },
   {

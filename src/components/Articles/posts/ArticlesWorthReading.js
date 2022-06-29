@@ -136,6 +136,15 @@ const ArticlesWorthReading = (props) => {
               Lesser Known PostgreSQL Features
             </a>
           </li>
+          <li>
+            <a
+              href="https://twitter.com/svpino/status/1541753295529660417"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              10 lessons I learned from a brilliant software engineer.
+            </a>
+          </li>
         </ol>
       </article>
     </Fragment>
