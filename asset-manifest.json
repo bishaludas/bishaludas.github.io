@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2663ece.chunk.css",
-    "main.js": "/static/js/main.7ff608d0.chunk.js",
-    "main.js.map": "/static/js/main.7ff608d0.chunk.js.map",
+    "main.css": "/static/css/main.851af354.chunk.css",
+    "main.js": "/static/js/main.68ce1059.chunk.js",
+    "main.js.map": "/static/js/main.68ce1059.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d2cdeb76.js",
     "runtime-main.js.map": "/static/js/runtime-main.d2cdeb76.js.map",
     "static/js/2.3d6c2117.chunk.js": "/static/js/2.3d6c2117.chunk.js",
     "static/js/2.3d6c2117.chunk.js.map": "/static/js/2.3d6c2117.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d2663ece.chunk.css.map": "/static/css/main.d2663ece.chunk.css.map",
+    "static/css/main.851af354.chunk.css.map": "/static/css/main.851af354.chunk.css.map",
     "static/js/2.3d6c2117.chunk.js.LICENSE.txt": "/static/js/2.3d6c2117.chunk.js.LICENSE.txt",
     "static/media/GitMeSomeKnowledge1.7ffb8982.png": "/static/media/GitMeSomeKnowledge1.7ffb8982.png",
     "static/media/SecureConnectionDB1.a5785802.jpg": "/static/media/SecureConnectionDB1.a5785802.jpg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.d2cdeb76.js",
     "static/js/2.3d6c2117.chunk.js",
-    "static/css/main.d2663ece.chunk.css",
-    "static/js/main.7ff608d0.chunk.js"
+    "static/css/main.851af354.chunk.css",
+    "static/js/main.68ce1059.chunk.js"
   ]
 }
