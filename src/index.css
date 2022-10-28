@@ -40,6 +40,14 @@ article img{
   margin-bottom: 2%;
 }
 
+table, th, td {
+  border: 1px solid #bebebe;
+  border-collapse: collapse;
+}
+td{
+  padding: 5px;
+}
+
 /* Bootstrap helper styles */
 /* bootstrap helper class */
 .m-0 {	margin: 0 !important;}

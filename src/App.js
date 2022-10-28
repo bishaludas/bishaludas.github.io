@@ -34,7 +34,7 @@ const App = () => {
       },
     },
     typography: {
-      fontFamily: "ubuntu",
+      fontFamily: "Open Sans",
       fontSize: 18,
     },
   });
@@ -80,7 +80,7 @@ const useStyles = makeStyles((theme) => ({
       width: "100%",
     },
     fontSize: "18px",
-    fontFamily: "Ubuntu",
+    fontFamily: "Open Sans",
   },
   contentBody: {
     marginTop: "2.5rem",

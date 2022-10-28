@@ -8,6 +8,7 @@ import CreateUserinSQL from "./CreateUserinSQL";
 import SecureConnectionDB from "./SecureConnectionDB";
 import Serverless from "./Serverless";
 import NoVpsAnymore from "./NoVpsAnymore";
+import ReducingRDSPricing from "./ReducingRDSPricing";
 
 export const Posts = [
   {
@@ -114,6 +115,17 @@ export const Posts = [
     created_at: "2022-05-07",
     updated_at: "2022-05-07",
     component: NoVpsAnymore,
+  },
+  {
+    title: "Reduce RDS Pricing",
+    slug_title: "reduce_rds_pricing",
+    summary:
+      "A report on ways to reduce the cost of RDS database. This article covers various steps implemented to reduce cost and cost summary report after changes.",
+    status: "publish",
+    tags: "Database, RDS, Database",
+    created_at: "2022-10-27",
+    updated_at: "2022-10-27",
+    component: ReducingRDSPricing,
   },
 ];
 
