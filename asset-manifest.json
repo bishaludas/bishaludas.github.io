@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcd8833b.chunk.css",
-    "main.js": "/static/js/main.e295eb60.chunk.js",
-    "main.js.map": "/static/js/main.e295eb60.chunk.js.map",
+    "main.css": "/static/css/main.851af354.chunk.css",
+    "main.js": "/static/js/main.68ce1059.chunk.js",
+    "main.js.map": "/static/js/main.68ce1059.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d2cdeb76.js",
     "runtime-main.js.map": "/static/js/runtime-main.d2cdeb76.js.map",
-    "static/js/2.63c99524.chunk.js": "/static/js/2.63c99524.chunk.js",
-    "static/js/2.63c99524.chunk.js.map": "/static/js/2.63c99524.chunk.js.map",
+    "static/js/2.3d6c2117.chunk.js": "/static/js/2.3d6c2117.chunk.js",
+    "static/js/2.3d6c2117.chunk.js.map": "/static/js/2.3d6c2117.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.dcd8833b.chunk.css.map": "/static/css/main.dcd8833b.chunk.css.map",
-    "static/js/2.63c99524.chunk.js.LICENSE.txt": "/static/js/2.63c99524.chunk.js.LICENSE.txt",
+    "static/css/main.851af354.chunk.css.map": "/static/css/main.851af354.chunk.css.map",
+    "static/js/2.3d6c2117.chunk.js.LICENSE.txt": "/static/js/2.3d6c2117.chunk.js.LICENSE.txt",
     "static/media/GitMeSomeKnowledge1.7ffb8982.png": "/static/media/GitMeSomeKnowledge1.7ffb8982.png",
     "static/media/SecureConnectionDB1.a5785802.jpg": "/static/media/SecureConnectionDB1.a5785802.jpg",
     "static/media/SecureConnectionDB2.5168a6ea.png": "/static/media/SecureConnectionDB2.5168a6ea.png",
     "static/media/budash.f2e6a11e.jpg": "/static/media/budash.f2e6a11e.jpg",
+    "static/media/cost_explorer.ee71b80f.PNG": "/static/media/cost_explorer.ee71b80f.PNG",
     "static/media/docker.38a7e458.jpeg": "/static/media/docker.38a7e458.jpeg",
     "static/media/eisei.f9f432c7.jpeg": "/static/media/eisei.f9f432c7.jpeg",
     "static/media/lambda.ca6e18b0.jpg": "/static/media/lambda.ca6e18b0.jpg",
@@ -23,14 +24,15 @@
     "static/media/namecheap1.0680dbc9.png": "/static/media/namecheap1.0680dbc9.png",
     "static/media/namecheap2.283cf029.png": "/static/media/namecheap2.283cf029.png",
     "static/media/nepse.0f113710.png": "/static/media/nepse.0f113710.png",
+    "static/media/reserved_instance.70329a8a.PNG": "/static/media/reserved_instance.70329a8a.PNG",
     "static/media/vline_atchitecture_v2.14b3ada1.png": "/static/media/vline_atchitecture_v2.14b3ada1.png",
     "static/media/vps1.4e63c0fd.png": "/static/media/vps1.4e63c0fd.png",
     "static/media/vps2.6f13b4ff.png": "/static/media/vps2.6f13b4ff.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d2cdeb76.js",
-    "static/js/2.63c99524.chunk.js",
-    "static/css/main.dcd8833b.chunk.css",
-    "static/js/main.e295eb60.chunk.js"
+    "static/js/2.3d6c2117.chunk.js",
+    "static/css/main.851af354.chunk.css",
+    "static/js/main.68ce1059.chunk.js"
   ]
 }
