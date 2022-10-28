@@ -54,7 +54,7 @@ const ReduceRDSPricing = (props) => {
         <p>
           Data is cornerstone of any modern software application, and database
           are the most common way to store and manage data used by modern
-          applications. Databases are backbone of any business because the
+          applications. Databases are backbone of any business because they
           contain information on every aspect of your business. Hence, Security
           is of prime concern, which can be achieved in two ways :
         </p>
@@ -128,7 +128,7 @@ const ReduceRDSPricing = (props) => {
         {/*  */}
         <p>
           There was a massive cost raised by the Relational Database Service
-          alone. Before there were total 19 RDS and monthly cost were as below :
+          alone. Before there were total 19 RDS and monthly cost is as below :
         </p>
         <table>
           <thead>
@@ -163,9 +163,9 @@ const ReduceRDSPricing = (props) => {
             Server.
           </li>
           <li>
-            Changing the database engine is not an option as the docker image
-            was setup to work with SQL Server only. Other unknown issues which
-            might stop progamme form running.
+            Changing the database engine is not an option as the backend and
+            docker image was setup to work with SQL Server only. Other unknown
+            issues which might stop progamme form running.
           </li>
           <li>Under SQL Server engine there were cheaper deployment models.</li>
           <li>
@@ -260,16 +260,16 @@ const ReduceRDSPricing = (props) => {
               always applied on the first day of new month from next time
               onwards.
               <p>
-                Below attached cost explorer image shows in Aug 1, all the
-                reserved instance prices for the month is charged. In 3 Aug we
-                purchased a new Reserved instance, its charge for the remaining
-                days in month are charge the next day.
+                Below attached cost explorer image shows, all the reserved
+                instance cost for the month August is charged in Aug 1. In Aug
+                3, we purchased a new Reserved instance, its charge for the
+                remaining days in month is charge the next day.
               </p>
             </li>
 
             <img src={cost_explorer} alt="cost_explorer" />
             <li>
-              One important note : is you purchased a reserved instance for a
+              One important note : if you purchased a reserved instance for a
               data and 3 months down you delete the database, you will still
               have to pay for the remaining time term of the reserved instance.{" "}
             </li>
