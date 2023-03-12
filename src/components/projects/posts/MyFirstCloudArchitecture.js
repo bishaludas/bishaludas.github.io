@@ -7,7 +7,7 @@ const MyFirstCloudArchitecture = () => {
   return (
     <article>
       <Typography variant="h5" color="primary">
-        My First cloud Architecture
+        ECS cloud Architecture
       </Typography>
       <div>
         <p>

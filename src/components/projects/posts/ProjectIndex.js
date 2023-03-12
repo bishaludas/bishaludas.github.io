@@ -3,6 +3,7 @@ import NepseApi from "./NepseApi";
 import NamecheapApi from "./NamecheapApi";
 import DockerImage from "./DockerImage";
 import MyFirstCloudArchitecture from "./MyFirstCloudArchitecture";
+import GMS from "./GMS";
 
 export const Posts = [
   {
@@ -43,7 +44,7 @@ export const Posts = [
     component: DockerImage,
   },
   {
-    title: "My First Cloud Architecture",
+    title: "ECS Cloud Architecture",
     slug_title: "aws_cloud_architecture",
     summary:
       "I build an auto-scalable cloud architecture build on top of AWS Elastic container service using Fargate as compute resource.",
@@ -52,6 +53,16 @@ export const Posts = [
     created_at: "2022-06-01",
     updated_at: "2022-06-01",
     component: MyFirstCloudArchitecture,
+  },
+  {
+    title: "Gold Management System",
+    slug_title: "gold_management_system",
+    summary: "I build an offline desktop application for a client's business.",
+    tags: "AWS, Cloud, DevOps, Container",
+    status: "publish",
+    created_at: "2022-09-13",
+    updated_at: "2022-09-13",
+    component: GMS,
   },
 ];
 
