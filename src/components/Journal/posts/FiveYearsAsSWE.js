@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Alert, AlertTitle } from "@material-ui/lab";
 import Grid from "@material-ui/core/Grid";
+import Modal from "@material-ui/core/Modal";
+import Fade from "@material-ui/core/Fade";
+import Backdrop from "@material-ui/core/Backdrop";
+import { makeStyles } from "@material-ui/core/styles";
 
 import college from "./images/FiveYearsAsSWE/college.jpeg";
 import college_dab from "./images/FiveYearsAsSWE/college_dab.jpeg";
@@ -43,8 +47,59 @@ import wolf_holi from "./images/FiveYearsAsSWE/wolf_holi.jpeg";
 import kic_meet from "./images/FiveYearsAsSWE/kic_meet.png";
 
 const FiveYearsAsSWE = () => {
+  const [open, setOpen] = React.useState(false);
+  const [imgModal, setImgModal] = useState("");
+
+  const useStyles = makeStyles((theme) => ({
+    modal: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    paper: {
+      backgroundColor: theme.palette.background.paper,
+      border: "2px solid #000",
+      boxShadow: theme.shadows[5],
+      maxWidth: "80%",
+    },
+  }));
+  const classes = useStyles();
+
+  const handleOpen = (e) => {
+    setImgModal(e.target.src);
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   return (
     <div>
+      <Modal
+        aria-labelledby="transition-modal-title"
+        aria-describedby="transition-modal-description"
+        className={classes.modal}
+        open={open}
+        onClose={handleClose}
+        closeAfterTransition
+        BackdropComponent={Backdrop}
+        BackdropProps={{
+          timeout: 500,
+        }}
+      >
+        <Fade in={open}>
+          <div className={classes.paper}>
+            <img
+              src={imgModal}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
+          </div>
+        </Fade>
+      </Modal>
+
       <div className="intro mb-5">
         <h1>March 2023</h1>
         <h1>5 years of life as a Software Engineer&nbsp;</h1>
@@ -101,13 +156,28 @@ const FiveYearsAsSWE = () => {
 
         <Grid container spacing={3} className="mt-3">
           <Grid item xs={4}>
-            <img src={college} alt="asd" className="img-fluid" />
+            <img
+              src={college}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
           <Grid item xs={4}>
-            <img src={college_dab} alt="asd" className="img-fluid" />
+            <img
+              src={college_dab}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
           <Grid item xs={4}>
-            <img src={mustang} alt="asd" className="img-fluid" />
+            <img
+              src={mustang}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
         </Grid>
       </div>
@@ -158,19 +228,44 @@ const FiveYearsAsSWE = () => {
 
         <Grid container spacing={3} className="mt-3">
           <Grid item xs={4}>
-            <img src={cycling} alt="asd" className="img-fluid" />
+            <img
+              src={cycling}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
           <Grid item xs={4}>
-            <img src={pokhara} alt="asd" className="img-fluid" />
+            <img
+              src={pokhara}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
           <Grid item xs={4}>
-            <img src={sarankot} alt="asd" className="img-fluid" />
+            <img
+              src={sarankot}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
           <Grid item xs={4}>
-            <img src={labim_college} alt="asd" className="img-fluid" />
+            <img
+              src={labim_college}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
           <Grid item xs={4}>
-            <img src={CG} alt="asd" className="img-fluid" />
+            <img
+              src={CG}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
         </Grid>
       </div>
@@ -255,13 +350,28 @@ const FiveYearsAsSWE = () => {
 
         <Grid container spacing={3} className="mt-3">
           <Grid item xs={4}>
-            <img src={abc_two} alt="asd" className="img-fluid" />
+            <img
+              src={abc_two}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
           <Grid item xs={4}>
-            <img src={graduation} alt="asd" className="img-fluid" />
+            <img
+              src={graduation}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
           <Grid item xs={4}>
-            <img src={abc} alt="asd" className="img-fluid" />
+            <img
+              src={abc}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
         </Grid>
       </div>
@@ -342,31 +452,71 @@ const FiveYearsAsSWE = () => {
           <Grid item xs={6}>
             <Grid container spacing={2}>
               <Grid item xs={4}>
-                <img src={hike} alt="asd" className="img-fluid" />
+                <img
+                  src={hike}
+                  alt="asd"
+                  className="img-fluid"
+                  onClick={handleOpen}
+                />
               </Grid>
               <Grid item xs={4}>
-                <img src={pokhara_3} alt="asd" className="img-fluid" />
+                <img
+                  src={pokhara_3}
+                  alt="asd"
+                  className="img-fluid"
+                  onClick={handleOpen}
+                />
               </Grid>
               <Grid item xs={4}>
-                <img src={office_outing} alt="asd" className="img-fluid" />
+                <img
+                  src={office_outing}
+                  alt="asd"
+                  className="img-fluid"
+                  onClick={handleOpen}
+                />
               </Grid>
               <Grid item xs={4}>
-                <img src={office_outing2} alt="asd" className="img-fluid" />
+                <img
+                  src={office_outing2}
+                  alt="asd"
+                  className="img-fluid"
+                  onClick={handleOpen}
+                />
               </Grid>
               <Grid item xs={4}>
-                <img src={poker} alt="asd" className="img-fluid" />
+                <img
+                  src={poker}
+                  alt="asd"
+                  className="img-fluid"
+                  onClick={handleOpen}
+                />
               </Grid>
               <Grid item xs={4}>
-                <img src={sujan} alt="asd" className="img-fluid" />
+                <img
+                  src={sujan}
+                  alt="asd"
+                  className="img-fluid"
+                  onClick={handleOpen}
+                />
               </Grid>
             </Grid>
           </Grid>
 
           <Grid item xs={3}>
-            <img src={pokhara_2} alt="asd" className="img-fluid" />
+            <img
+              src={pokhara_2}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
           <Grid item xs={3}>
-            <img src={covid_2} alt="asd" className="img-fluid" />
+            <img
+              src={covid_2}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
         </Grid>
       </div>
@@ -440,29 +590,64 @@ const FiveYearsAsSWE = () => {
           <Grid item xs={6}>
             <Grid container spacing={2}>
               <Grid item xs={4}>
-                <img src={sherpa} alt="asd" className="img-fluid" />
+                <img
+                  src={sherpa}
+                  alt="asd"
+                  className="img-fluid"
+                  onClick={handleOpen}
+                />
               </Grid>
               <Grid item xs={4}>
-                <img src={sherpa_farewell} alt="asd" className="img-fluid" />
+                <img
+                  src={sherpa_farewell}
+                  alt="asd"
+                  className="img-fluid"
+                  onClick={handleOpen}
+                />
               </Grid>
               <Grid item xs={4}>
-                <img src={dhulikhel} alt="asd" className="img-fluid" />
+                <img
+                  src={dhulikhel}
+                  alt="asd"
+                  className="img-fluid"
+                  onClick={handleOpen}
+                />
               </Grid>
               <Grid item xs={4}>
-                <img src={pottery} alt="asd" className="img-fluid" />
+                <img
+                  src={pottery}
+                  alt="asd"
+                  className="img-fluid"
+                  onClick={handleOpen}
+                />
               </Grid>
               <Grid item xs={4}>
-                <img src={butwal_flight} alt="asd" className="img-fluid" />
+                <img
+                  src={butwal_flight}
+                  alt="asd"
+                  className="img-fluid"
+                  onClick={handleOpen}
+                />
               </Grid>
             </Grid>
           </Grid>
 
           <Grid item xs={3}>
-            <img src={sister_wedding} alt="asd" className="img-fluid" />
+            <img
+              src={sister_wedding}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
 
           <Grid item xs={3}>
-            <img src={beer_pong} alt="asd" className="img-fluid" />
+            <img
+              src={beer_pong}
+              alt="asd"
+              className="img-fluid"
+              onClick={handleOpen}
+            />
           </Grid>
         </Grid>
       </div>
@@ -553,31 +738,71 @@ const FiveYearsAsSWE = () => {
         <Grid item xs={6}>
           <Grid container spacing={2}>
             <Grid item xs={4}>
-              <img src={yomari} alt="asd" className="img-fluid" />
+              <img
+                src={yomari}
+                alt="asd"
+                className="img-fluid"
+                onClick={handleOpen}
+              />
             </Grid>
             <Grid item xs={4}>
-              <img src={wolf_outing} alt="asd" className="img-fluid" />
+              <img
+                src={wolf_outing}
+                alt="asd"
+                className="img-fluid"
+                onClick={handleOpen}
+              />
             </Grid>
             <Grid item xs={4}>
-              <img src={pushups} alt="asd" className="img-fluid" />
+              <img
+                src={pushups}
+                alt="asd"
+                className="img-fluid"
+                onClick={handleOpen}
+              />
             </Grid>
             <Grid item xs={4}>
-              <img src={langtang} alt="asd" className="img-fluid" />
+              <img
+                src={langtang}
+                alt="asd"
+                className="img-fluid"
+                onClick={handleOpen}
+              />
             </Grid>
             <Grid item xs={4}>
-              <img src={wolf_holi} alt="asd" className="img-fluid" />
+              <img
+                src={wolf_holi}
+                alt="asd"
+                className="img-fluid"
+                onClick={handleOpen}
+              />
             </Grid>
             <Grid item xs={4}>
-              <img src={kic_meet} alt="asd" className="img-fluid" />
+              <img
+                src={kic_meet}
+                alt="asd"
+                className="img-fluid"
+                onClick={handleOpen}
+              />
             </Grid>
           </Grid>
         </Grid>
 
         <Grid item xs={3}>
-          <img src={wolf_fish} alt="asd" className="img-fluid" />
+          <img
+            src={wolf_fish}
+            alt="asd"
+            className="img-fluid"
+            onClick={handleOpen}
+          />
         </Grid>
         <Grid item xs={3}>
-          <img src={pizza} alt="asd" className="img-fluid" />
+          <img
+            src={pizza}
+            alt="asd"
+            className="img-fluid"
+            onClick={handleOpen}
+          />
         </Grid>
       </Grid>
 
