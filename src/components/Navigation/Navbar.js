@@ -59,13 +59,13 @@ const Navbar = ({ changeTheme, darkMode }) => {
             >
               Projects
             </NavLink>
-            <NavLink
+            {/* <NavLink
               className={classes.navlinks}
               to="/stack"
               activeClassName={classes.active}
             >
               Stack
-            </NavLink>
+            </NavLink> */}
             <NavLink
               className={classes.navlinks}
               to="/journal"

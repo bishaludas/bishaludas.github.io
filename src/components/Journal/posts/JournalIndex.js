@@ -1,27 +1,15 @@
-import NamecheapApi from "./NamecheapApi";
-import NepseApi from "./NepseApi";
+import FiveYearsAsSWE from "./FiveYearsAsSWE";
 
 export const Posts = [
   {
-    title: "My Year in 2018",
-    slug_title: "my_year_in_2018",
-    summary: "Collection of helpful  cli commands for S3 bucket",
-    tags: "aws, s3, aws cli",
-    status: "publish",
-    created_at: "2021-10-20",
-    updated_at: "2021-10-20",
-    component: NepseApi,
-  },
-
-  {
-    title: "Git me some knowledge",
-    slug_title: "git_me_some_knowledge_2",
+    title: "5 years as Software Engineer",
+    slug_title: "5_years_as_software_engineer",
     summary: "A post on funny issue I encountered with git.",
     tags: "Git",
     status: "publish",
-    created_at: "2021-02-21",
-    updated_at: "2021-06-01",
-    component: NamecheapApi,
+    created_at: "2023-03-12",
+    updated_at: "2023-03-12",
+    component: FiveYearsAsSWE,
   },
 ];
 
