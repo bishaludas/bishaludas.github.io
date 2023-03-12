@@ -1,5 +1,46 @@
 import React from "react";
 import { Alert, AlertTitle } from "@material-ui/lab";
+import Grid from "@material-ui/core/Grid";
+
+import college from "./images/FiveYearsAsSWE/college.jpeg";
+import college_dab from "./images/FiveYearsAsSWE/college_dab.jpeg";
+import mustang from "./images/FiveYearsAsSWE/mustang.jpeg";
+
+import labim_college from "./images/FiveYearsAsSWE/labim_college.jpeg";
+import cycling from "./images/FiveYearsAsSWE/cycling.jpeg";
+import CG from "./images/FiveYearsAsSWE/CG.jpeg";
+import pokhara from "./images/FiveYearsAsSWE/pokhara.jpeg";
+import sarankot from "./images/FiveYearsAsSWE/sarankot.jpeg";
+
+import abc from "./images/FiveYearsAsSWE/abc.jpeg";
+import abc_two from "./images/FiveYearsAsSWE/abc_two.jpeg";
+import graduation from "./images/FiveYearsAsSWE/graduation.jpeg";
+
+import hike from "./images/FiveYearsAsSWE/hike.jpeg";
+import office_outing from "./images/FiveYearsAsSWE/office_outing.jpeg";
+import office_outing2 from "./images/FiveYearsAsSWE/office_outing2.jpeg";
+import poker from "./images/FiveYearsAsSWE/poker.jpeg";
+import pokhara_2 from "./images/FiveYearsAsSWE/pokhara_2.jpeg";
+import pokhara_3 from "./images/FiveYearsAsSWE/pokhara_3.jpeg";
+import sujan from "./images/FiveYearsAsSWE/sujan.jpeg";
+import covid_2 from "./images/FiveYearsAsSWE/covid_2.jpeg";
+
+import sherpa from "./images/FiveYearsAsSWE/sherpa.jpeg";
+import sherpa_farewell from "./images/FiveYearsAsSWE/sherpa_farewell.jpeg";
+import beer_pong from "./images/FiveYearsAsSWE/beer_pong.jpeg";
+import dhulikhel from "./images/FiveYearsAsSWE/dhulikhel.jpeg";
+import pottery from "./images/FiveYearsAsSWE/pottery.jpeg";
+import sister_wedding from "./images/FiveYearsAsSWE/sister_wedding.jpeg";
+import butwal_flight from "./images/FiveYearsAsSWE/butwal_flight.jpeg";
+
+import langtang from "./images/FiveYearsAsSWE/langtang.jpeg";
+import pizza from "./images/FiveYearsAsSWE/pizza.jpeg";
+import pushups from "./images/FiveYearsAsSWE/pushups.jpeg";
+import wolf_fish from "./images/FiveYearsAsSWE/wolf_fish.jpeg";
+import wolf_outing from "./images/FiveYearsAsSWE/wolf_outing.jpeg";
+import yomari from "./images/FiveYearsAsSWE/yomari.jpeg";
+import wolf_holi from "./images/FiveYearsAsSWE/wolf_holi.jpeg";
+import kic_meet from "./images/FiveYearsAsSWE/kic_meet.png";
 
 const FiveYearsAsSWE = () => {
   return (
@@ -19,13 +60,13 @@ const FiveYearsAsSWE = () => {
       <div className="year mb-5">
         <h2>Year 0 (2017)</h2>
         <p>
-          Choosed to study Computer Science as I loved playing computer games
-          like GTA : Vice City, Dota &amp; Counter Strike, also because I had
-          done some web stuff :&nbsp; HTML, CSS while at school and was good at
-          it . How hard can this be right? 3 years down the college, I was
-          pretty much failing all semesters till 5th. When TU published result
-          my mom used to pray that I failed only one subject , and it did work
-          for the first year&nbsp; 😂.&nbsp;
+          Chose to study Computer Science as I loved playing computer games like
+          GTA : Vice City, Dota &amp; Counter Strike, also because I had done
+          some web stuff :&nbsp; HTML, CSS while at school and was good at it .
+          How hard can this be right? 3 years down the college, I was pretty
+          much failing all semesters till 5th. When TU published result my mom
+          used to pray that I failed only one subject , and it did work for the
+          first year&nbsp; 😂.&nbsp;
         </p>
         <p>
           I was then working part time at a Civil Engineering consultancy (10k)
@@ -57,6 +98,18 @@ const FiveYearsAsSWE = () => {
           participated in some programming events, had an internship and made a
           mobile game &amp; some websites.
         </Alert>
+
+        <Grid container spacing={3} className="mt-3">
+          <Grid item xs={4}>
+            <img src={college} alt="asd" className="img-fluid" />
+          </Grid>
+          <Grid item xs={4}>
+            <img src={college_dab} alt="asd" className="img-fluid" />
+          </Grid>
+          <Grid item xs={4}>
+            <img src={mustang} alt="asd" className="img-fluid" />
+          </Grid>
+        </Grid>
       </div>
 
       <hr />
@@ -72,7 +125,7 @@ const FiveYearsAsSWE = () => {
           requirements and incorporate it into software.
         </p>
         <p>
-          I'd go to movies, anime expo, cycling and have night outs with college
+          I'd go to movies, anime expo, cycling and have night outs with
           friends; one was at Chitlang.
         </p>
         <p>
@@ -82,8 +135,8 @@ const FiveYearsAsSWE = () => {
           months and felt like I was not growing. There was this feeling “I
           don't know enough” and realized I wasn't communicating as easily as I
           used to.I informed my situation to the Department manager after which
-          I got assigned to senior software engineers Bal Krishna and Naresh
-          Shrestha.
+          I got assigned to senior software engineers Bal Krishn Shrestha and
+          Naresh Shrestha.
         </p>
         <p>
           I got the opportunity to work with mentors on other projects and was
@@ -102,6 +155,24 @@ const FiveYearsAsSWE = () => {
           8 months, I was doing solo programming, was lost. Found mentors who
           helped me navigate to the proper career path.&nbsp;
         </Alert>
+
+        <Grid container spacing={3} className="mt-3">
+          <Grid item xs={4}>
+            <img src={cycling} alt="asd" className="img-fluid" />
+          </Grid>
+          <Grid item xs={4}>
+            <img src={pokhara} alt="asd" className="img-fluid" />
+          </Grid>
+          <Grid item xs={4}>
+            <img src={sarankot} alt="asd" className="img-fluid" />
+          </Grid>
+          <Grid item xs={4}>
+            <img src={labim_college} alt="asd" className="img-fluid" />
+          </Grid>
+          <Grid item xs={4}>
+            <img src={CG} alt="asd" className="img-fluid" />
+          </Grid>
+        </Grid>
       </div>
       <hr />
 
@@ -124,7 +195,7 @@ const FiveYearsAsSWE = () => {
         </p>
         <p>
           I had been planning a trip to Annapurna Base Camp with friends since
-          college. Finally, the time had come and a group of 7 went on ABC trek
+          college. Finally, the time had come and a group of 6 went on ABC trek
           during Dashain. Friend's dad had a travel agency and had planned out
           the itinerary and lodging for us.
         </p>
@@ -171,8 +242,8 @@ const FiveYearsAsSWE = () => {
         <p>
           Bought a personal VPS server and performed all sorts of experiments,
           lots of moving fast and breaking things which helped my confidence
-          grow more. Asked my friend Khema to purchase a domain after which I
-          started blogging.
+          grow more. Asked my friend to purchase a domain after which I started
+          blogging.
         </p>
 
         <Alert severity="success" icon={false} className="mt-5">
@@ -181,6 +252,18 @@ const FiveYearsAsSWE = () => {
           Found good mentors. Moved fast and broke things which contributed to
           faster growth.
         </Alert>
+
+        <Grid container spacing={3} className="mt-3">
+          <Grid item xs={4}>
+            <img src={abc_two} alt="asd" className="img-fluid" />
+          </Grid>
+          <Grid item xs={4}>
+            <img src={graduation} alt="asd" className="img-fluid" />
+          </Grid>
+          <Grid item xs={4}>
+            <img src={abc} alt="asd" className="img-fluid" />
+          </Grid>
+        </Grid>
       </div>
       <hr />
 
@@ -254,6 +337,38 @@ const FiveYearsAsSWE = () => {
           helped peers grow as well. Sense of Independence and confidence grew
           within, able to take new challenges head on heighten.
         </Alert>
+
+        <Grid container spacing={3} className="mt-3">
+          <Grid item xs={6}>
+            <Grid container spacing={2}>
+              <Grid item xs={4}>
+                <img src={hike} alt="asd" className="img-fluid" />
+              </Grid>
+              <Grid item xs={4}>
+                <img src={pokhara_3} alt="asd" className="img-fluid" />
+              </Grid>
+              <Grid item xs={4}>
+                <img src={office_outing} alt="asd" className="img-fluid" />
+              </Grid>
+              <Grid item xs={4}>
+                <img src={office_outing2} alt="asd" className="img-fluid" />
+              </Grid>
+              <Grid item xs={4}>
+                <img src={poker} alt="asd" className="img-fluid" />
+              </Grid>
+              <Grid item xs={4}>
+                <img src={sujan} alt="asd" className="img-fluid" />
+              </Grid>
+            </Grid>
+          </Grid>
+
+          <Grid item xs={3}>
+            <img src={pokhara_2} alt="asd" className="img-fluid" />
+          </Grid>
+          <Grid item xs={3}>
+            <img src={covid_2} alt="asd" className="img-fluid" />
+          </Grid>
+        </Grid>
       </div>
       <hr />
 
@@ -295,7 +410,11 @@ const FiveYearsAsSWE = () => {
           compile type language was interesting. Later, deployed the
           microservice in AWS's Lambda function.
         </p>
-        <p>This year, I went on a mini vacation to Dhulikhel.</p>
+        <p>
+          This year, My sister got married and I went to Butwal to attend
+          groom's wedding party. I went on a mini vacation to Dhulikhel and
+          tried pottery at Bhaktapur.
+        </p>
         <p>
           While continuing my main project, I also mentored some freshers who
           were really smart and hardworking. In 3 months time period, they had
@@ -316,6 +435,36 @@ const FiveYearsAsSWE = () => {
           interesting to me and shared my knowledge to freshers and associate
           developers.&nbsp;
         </Alert>
+
+        <Grid container spacing={3} className="mt-3">
+          <Grid item xs={6}>
+            <Grid container spacing={2}>
+              <Grid item xs={4}>
+                <img src={sherpa} alt="asd" className="img-fluid" />
+              </Grid>
+              <Grid item xs={4}>
+                <img src={sherpa_farewell} alt="asd" className="img-fluid" />
+              </Grid>
+              <Grid item xs={4}>
+                <img src={dhulikhel} alt="asd" className="img-fluid" />
+              </Grid>
+              <Grid item xs={4}>
+                <img src={pottery} alt="asd" className="img-fluid" />
+              </Grid>
+              <Grid item xs={4}>
+                <img src={butwal_flight} alt="asd" className="img-fluid" />
+              </Grid>
+            </Grid>
+          </Grid>
+
+          <Grid item xs={3}>
+            <img src={sister_wedding} alt="asd" className="img-fluid" />
+          </Grid>
+
+          <Grid item xs={3}>
+            <img src={beer_pong} alt="asd" className="img-fluid" />
+          </Grid>
+        </Grid>
       </div>
       <hr />
 
@@ -378,9 +527,9 @@ const FiveYearsAsSWE = () => {
         As a man, it is in our biology to protect and provide. Of Course you'd
         want the best for the people you'd care about and sometimes resulting in
         putting them under pressure of walking in your shoes. And this is bad.
-        When someone shares their insecurities, it is best to be understanding
-        and kind. Every human is equal, the moment one considers themselves
-        superior to another, you'd end up with a superiority complex.
+        When someone shares their insecurities, just be understanding and kind.
+        Every human is equal, the moment one considers themselves superior to
+        another, you'd end up with a superiority complex.
       </p>
       <p>
         And so I learned something about being a son/brother/man/leader. You
@@ -388,7 +537,10 @@ const FiveYearsAsSWE = () => {
         to listen. Wait for them to come to you. Do that and they'll know they
         can depend on you.
       </p>
-      <p>Learn from life's lessons and move on with greater wisdom.</p>
+      <p>
+        Don't waste time wondering if you made mistakes. Life's too short for
+        that. Learn from life's lessons and move on with greater wisdom.
+      </p>
 
       <Alert severity="success" icon={false} className="mt-5">
         <AlertTitle>TLDR;</AlertTitle> Self taught myself about financial
@@ -396,6 +548,38 @@ const FiveYearsAsSWE = () => {
         gold management software. Some emotional maturity. Feeling content with
         the achievements, I realized pursuing masters would be the next step.
       </Alert>
+
+      <Grid container spacing={3} className="mt-3">
+        <Grid item xs={6}>
+          <Grid container spacing={2}>
+            <Grid item xs={4}>
+              <img src={yomari} alt="asd" className="img-fluid" />
+            </Grid>
+            <Grid item xs={4}>
+              <img src={wolf_outing} alt="asd" className="img-fluid" />
+            </Grid>
+            <Grid item xs={4}>
+              <img src={pushups} alt="asd" className="img-fluid" />
+            </Grid>
+            <Grid item xs={4}>
+              <img src={langtang} alt="asd" className="img-fluid" />
+            </Grid>
+            <Grid item xs={4}>
+              <img src={wolf_holi} alt="asd" className="img-fluid" />
+            </Grid>
+            <Grid item xs={4}>
+              <img src={kic_meet} alt="asd" className="img-fluid" />
+            </Grid>
+          </Grid>
+        </Grid>
+
+        <Grid item xs={3}>
+          <img src={wolf_fish} alt="asd" className="img-fluid" />
+        </Grid>
+        <Grid item xs={3}>
+          <img src={pizza} alt="asd" className="img-fluid" />
+        </Grid>
+      </Grid>
 
       <p>Last updated : Saturday, March 12, 2023</p>
     </div>
