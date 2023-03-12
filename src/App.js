@@ -41,7 +41,6 @@ const App = () => {
 
   /*function to change the theme*/
   const changeTheme = () => {
-    console.log(darkMode);
     setDarkMode(!darkMode);
   };
 

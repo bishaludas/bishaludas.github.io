@@ -23,13 +23,13 @@ const Navbar = ({ changeTheme, darkMode }) => {
         {/*Avatar grid*/}
         <Grid item sm={6} md={3} lg={2}>
           <Link to="/">
-            <Avatar className={classes.large} alt="Remy Sharp" src={Budash} />
+            <Avatar className={classes.large} alt="Bishal Udash" src={Budash} />
           </Link>
         </Grid>
 
         {/*Navlink container*/}
-        <Grid item sm={12} md={9} lg={10}>
-          <Grid item xs={10} sm={10}>
+        <Grid item xs={12} sm={12} md={9} lg={10}>
+          <Grid item xs={12} sm={12}>
             <Typography variant="h4" component="h4" gutterBottom>
               <span className={classes.author} onClick={redirectHome}>
                 Bishal Udash
