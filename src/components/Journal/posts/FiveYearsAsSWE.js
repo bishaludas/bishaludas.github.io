@@ -205,7 +205,7 @@ const FiveYearsAsSWE = () => {
           months and felt like I was not growing. There was this feeling “I
           don't know enough” and realized I wasn't communicating as easily as I
           used to.I informed my situation to the Department manager after which
-          I got assigned to senior software engineers Bal Krishn Shrestha and
+          I got assigned to senior software engineers Bal Krishna Shrestha and
           Naresh Shrestha.
         </p>
         <p>
@@ -331,7 +331,7 @@ const FiveYearsAsSWE = () => {
         </p>
         <p>
           During spare time, I worked on multiple small projects, CMS,
-          ecommerce. Caught up with friends, goto movies and gym. Started
+          ecommerce. Caught up with friends, go to movies and gym. Started
           helping with house chores.
         </p>
         <p>
@@ -424,7 +424,7 @@ const FiveYearsAsSWE = () => {
         <p>
           For the next two months, I spent my time exploring devops techs like
           docker, apache, nginx, openvpn and frontend technologies : reactjs. I
-          also built a NEPE web scraper and ran it in cronjob.
+          also built a NEPSE web scraper and ran it in cronjob.
         </p>
         <p>
           I was actively posting in Developer Nepal's community page, and
@@ -533,9 +533,9 @@ const FiveYearsAsSWE = () => {
         </p>
         <p>
           Working at Mobwizard helped me realize the potential within me, not
-          only was I growing but I helped my peers and associate developers as
-          well. I had accomplished more than I thought I could have in 6 months.
-          After a month's notice I left with a warm goodbye to the team.
+          only was I growing but helped my peers and associate developers grow
+          as well. I had accomplished more than I thought I could have in 6
+          months. After a month's notice I left with a warm goodbye to the team.
         </p>
         <p>
           Transitioning to Wolfmatrix team was easy as pie, dev's had mutual
@@ -658,7 +658,7 @@ const FiveYearsAsSWE = () => {
         The stock market had been on a bull run since covid and it was the talk
         of the town. I had applied for some IPO and few were luckily allotted.
         Got hooked on the market trend and spent some time learning about
-        financial analysis, financial independence and finally started inventing
+        financial analysis, financial independence and finally started investing
         on the secondary market.
       </p>
       <p>
@@ -806,7 +806,7 @@ const FiveYearsAsSWE = () => {
         </Grid>
       </Grid>
 
-      <p>Last updated : Saturday, March 12, 2023</p>
+      <p>Last updated : Sunday, March 12, 2023</p>
     </div>
   );
 };
