@@ -115,13 +115,13 @@ const FiveYearsAsSWE = () => {
       <div className="year mb-5">
         <h2>Year 0 (2017)</h2>
         <p>
-          Chose to study Computer Science as I loved playing computer games like
-          GTA : Vice City, Dota &amp; Counter Strike, also because I had done
-          some web stuff :&nbsp; HTML, CSS while at school and was good at it .
-          How hard can this be right? 3 years down the college, I was pretty
-          much failing all semesters till 5th. When TU published result my mom
-          used to pray that I failed only one subject , and it did work for the
-          first year&nbsp; 😂.&nbsp;
+          Chose to study Computer Science because I had done some web stuff
+          :&nbsp; HTML, CSS at school which I enjoyed and was good at, also
+          spend my early days on computer playing games and tinkering around.
+          The course peaked my interest; besides, how hard can this be right? 3
+          years down the college, I was pretty much failing all semesters till
+          5th. When TU published result my mom used to pray that I failed only
+          one subject , and it did work for the first year&nbsp; 😂.&nbsp;
         </p>
         <p>
           I was then working part time at a Civil Engineering consultancy (10k)
