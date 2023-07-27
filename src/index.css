@@ -31,7 +31,11 @@ article a {
   /* text-decoration: none; */
   color: #66a3e0;
 }
-
+.custom-tooltip {
+  background: #fff;
+  color: #1b1818;
+  padding: 0 15px;
+}
 article h2 {
   margin-bottom: 0;
 }

@@ -9,6 +9,7 @@ import SecureConnectionDB from "./SecureConnectionDB";
 import Serverless from "./Serverless";
 import NoVpsAnymore from "./NoVpsAnymore";
 import ReducingRDSPricing from "./ReducingRDSPricing";
+import GmsAnualReport from "./GmsAnualReport/index";
 
 export const Posts = [
   {
@@ -126,6 +127,16 @@ export const Posts = [
     created_at: "2022-10-27",
     updated_at: "2022-10-27",
     component: ReducingRDSPricing,
+  },
+  {
+    title: "GMS : Anual Report (2022 - 2023)",
+    slug_title: "gms_anual_report",
+    summary: "Mining GMS's database to generate interesting information.",
+    status: "publish",
+    created_at: "2023-07-25",
+    updated_at: "2023-07-25",
+    tags: "Slice of life",
+    component: GmsAnualReport,
   },
 ];
 
