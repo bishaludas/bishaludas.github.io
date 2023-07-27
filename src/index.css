@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+::selection {
+  color: #e57373;
+  background: #1b1818;
+}
 .ql-syntax {
   background-color: #2d0d22;
   color: #eee;
