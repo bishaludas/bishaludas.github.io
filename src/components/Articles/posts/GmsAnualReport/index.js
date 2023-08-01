@@ -1,11 +1,12 @@
 import React, { Suspense } from "react";
 const GoldPrice = React.lazy(() => import("./goldPrice"));
+const InventoryMetrics = React.lazy(() => import("./InventoryMetrics"));
 
 const GmsAnualReport = () => {
   return (
     <div className="intro mb-5">
       <h1>GMS : Anual Report ( 2022 - 2023 )</h1>
-      <h3>
+      <h3 className="article-topic">
         <u>Background</u>
       </h3>
 
@@ -32,7 +33,7 @@ const GmsAnualReport = () => {
 
         {/* Gold Price History */}
         <div className="mt-5">
-          <h3>
+          <h3 className="article-topic">
             <u>Gold Price History</u>
           </h3>
           <Suspense fallback={<div>Loading ...</div>}>
@@ -41,11 +42,12 @@ const GmsAnualReport = () => {
         </div>
 
         <div className="mt-5">
-          <h3>
+          <h3 className="article-topic">
             <u>Key Metrices</u>
           </h3>
-          which month has high Sales, Credit, Which tola is sold more, Which
-          item category, Which stone,
+          <Suspense fallback={<div>Loading ...</div>}>
+            <InventoryMetrics />
+          </Suspense>
         </div>
 
         <div className="mt-5">

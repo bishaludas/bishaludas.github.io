@@ -27,6 +27,13 @@ code {
   white-space: -o-pre-wrap;
 }
 
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+td {
+  padding: 0.5rem !important;
+}
 article a {
   /* text-decoration: none; */
   color: #66a3e0;
@@ -46,6 +53,9 @@ article img {
 
 .article-list li {
   margin-bottom: 2%;
+}
+.article-topic {
+  color: #e57373;
 }
 
 table,

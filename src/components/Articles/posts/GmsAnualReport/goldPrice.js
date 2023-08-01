@@ -6647,10 +6647,10 @@ const goldPrice = () => {
       <table className="mt-5">
         <thead>
           <tr>
-            <th>Date</th>
-            <th>Price</th>
-            <th>Change from previous year</th>
-            <th>Return %</th>
+            <th className="p-2">Date</th>
+            <th className="p-2">Price</th>
+            <th className="p-2">Change from previous year</th>
+            <th className="p-2">Change %</th>
           </tr>
         </thead>
         <tbody align="right">
