@@ -27,7 +27,8 @@ code {
   white-space: -o-pre-wrap;
 }
 
-.text-capitalize {
+.text-capitalize,
+tspan {
   text-transform: capitalize;
 }
 

@@ -48,7 +48,7 @@ const salesData = () => {
           margin={{
             top: 5,
             right: 30,
-            left: 20,
+            left: 30,
             bottom: 50,
           }}
         >
@@ -59,6 +59,37 @@ const salesData = () => {
           <Bar dataKey="amount" fill="#8884d8" />
         </BarChart>
       </ResponsiveContainer>
+
+      <div className="mt-4">
+        <p>
+          From above Sales bar diagram, we can see the demand in Gold increases
+          from the month of October and gradually decrease from June. The
+          highest demand is noted to be in month of February and March with
+          sales totaling to 2.09 crore and 1.88 crore.
+        </p>
+
+        <h4>
+          <u>Why is Gold prices rising?</u>
+        </h4>
+        <ul>
+          <li>
+            During the festivals, employees get bonuses from their offices and
+            consider it auspicious to invest in gold on festive occasions like
+            Teej, Dashain and Tihar festivals.
+          </li>
+          <li>
+            In Nepal, gold jewellery is a traditionally and culturally essential
+            during wedding celebrations when women put on their best ornaments.
+          </li>
+          <li>Groom’s family provides a set of gold jewellery to the bride</li>
+          <li>
+            Due to financial crisis and volatile stock market, Investors have
+            been turning to gold. On Global level, collapse of Silicon Valley
+            Bank in the US and the struggles of Swiss bank has influenced people
+            to invest in high value metals such as Gold and Silver.
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

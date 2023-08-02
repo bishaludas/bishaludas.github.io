@@ -37,34 +37,42 @@ const GmsAnualReport = () => {
           <h3 className="article-topic">
             <u>Gold Price History</u>
           </h3>
+
           <Suspense fallback={<div>Loading ...</div>}>
             <GoldPrice />
           </Suspense>
         </div>
 
+        {/* Monthly Sales Report */}
         <div className="mt-5">
           <h3 className="article-topic">
             <u>Sales Analysis</u>
           </h3>
+          <small className="article-topic">
+            ( Note : Below finding are generated from GMS software with consent
+            from clients.)
+          </small>
           <Suspense fallback={<div>Loading ...</div>}>
             <SalesData />
           </Suspense>
+        </div>
 
+        {/* Top selling jewellery */}
+        <div className="mt-5">
+          <h3 className="article-topic">
+            <u>Top Selling Jewellery</u>
+          </h3>
           <Suspense fallback={<div>Loading ...</div>}>
             <InventoryMetrics />
           </Suspense>
         </div>
 
         <div className="mt-5">
-          <h3>
-            <u>Findings</u>
-          </h3>
-        </div>
-
-        <div className="mt-5">
-          <h3>
+          <h3 className="article-topic">
             <u>Conclusion</u>
           </h3>
+          Gold business is huge, I should charge my clients more.
+          <h1>🙆</h1>
         </div>
       </article>
     </div>
