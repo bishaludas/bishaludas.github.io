@@ -1,15 +1,12 @@
 import React, { useMemo } from "react";
-import Grid from "@material-ui/core/Grid";
 
 import {
   ResponsiveContainer,
   BarChart,
-  CartesianGrid,
   Bar,
   XAxis,
   YAxis,
   Cell,
-  Text,
   Tooltip,
 } from "recharts";
 
@@ -107,6 +104,7 @@ const InventoryMetrics = () => {
               transform: `translate(${maxTextWidth + BAR_AXIS_SPACE}, 0)`,
             }}
           />
+          <Tooltip />
           <Bar dataKey={yKey} minPointSize={2} barSize={32}>
             {jewel_category.map((d, idx) => {
               return <Cell key={d[xKey]} fill="#8884d8" />;
@@ -147,6 +145,8 @@ const InventoryMetrics = () => {
               transform: `translate(${maxTextWidth + BAR_AXIS_SPACE}, 0)`,
             }}
           />
+          <Tooltip />
+
           <Bar dataKey={yKey} minPointSize={2} barSize={32}>
             {jewel_stone.map((d, idx) => {
               return <Cell key={d[xKey]} fill="#8884d8" />;
