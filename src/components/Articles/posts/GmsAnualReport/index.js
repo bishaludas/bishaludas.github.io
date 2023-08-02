@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import { Helmet } from "react-helmet";
 const GoldPrice = React.lazy(() => import("./goldPrice"));
 const InventoryMetrics = React.lazy(() => import("./InventoryMetrics"));
 const SalesData = React.lazy(() => import("./SalesData"));
@@ -6,6 +7,12 @@ const SalesData = React.lazy(() => import("./SalesData"));
 const GmsAnualReport = () => {
   return (
     <div className="intro mb-5">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>GMS : Anual Report ( 2022 - 2023 )</title>
+        <meta name="description" content="GMS : Anual Report ( 2022 - 2023 )" />
+        <meta name="author" content="Bishal Udash" />
+      </Helmet>
       <h1>GMS : Anual Report ( 2022 - 2023 )</h1>
       <h3 className="article-topic">
         <u>Background</u>

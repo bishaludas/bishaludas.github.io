@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Helmet } from "react-helmet";
 import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
 import { makeStyles } from "@material-ui/core/styles";
@@ -9,6 +10,15 @@ const ReduceRDSPricing = (props) => {
   const classes = useStyles();
   return (
     <Fragment>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Reduce RDS Pricing</title>
+        <meta
+          name="description"
+          content="A report on ways to reduce the cost of RDS database. This article covers various steps implemented to reduce cost and cost summary report after changes."
+        />
+        <meta name="author" content="Bishal Udash" />
+      </Helmet>
       {/*title*/}
       <Typography variant="h5" color="primary">
         {/* {article.title} */}Reduce RDS Pricing
