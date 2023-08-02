@@ -6644,7 +6644,7 @@ const goldPrice = () => {
         </LineChart>
       </ResponsiveContainer>
 
-      <table className="mt-5">
+      <table className="my-5">
         <thead>
           <tr>
             <th className="p-2">Date</th>
@@ -6686,6 +6686,22 @@ const goldPrice = () => {
           </tr>
         </tbody>
       </table>
+
+      <div>
+        <p>
+          The table provided shows the price and changes in price for Gold over
+          a period of five years, from 2019 to 2023. Here we can see the anual
+          changes in price in terms of actual amount and the percentage change
+          compared to previous year.
+        </p>
+
+        <p>
+          On an average, the Gold price increases by at least Rs. 11650 every
+          year. There was a negative growth in year 2022 as the financial sector
+          was facing liquidity crisis during that period. Overall, Gold can be
+          considered a safe investment.
+        </p>
+      </div>
     </>
   );
 };

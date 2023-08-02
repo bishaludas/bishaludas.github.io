@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 const GoldPrice = React.lazy(() => import("./goldPrice"));
 const InventoryMetrics = React.lazy(() => import("./InventoryMetrics"));
+const SalesData = React.lazy(() => import("./SalesData"));
 
 const GmsAnualReport = () => {
   return (
@@ -43,8 +44,12 @@ const GmsAnualReport = () => {
 
         <div className="mt-5">
           <h3 className="article-topic">
-            <u>Key Metrices</u>
+            <u>Sales Analysis</u>
           </h3>
+          <Suspense fallback={<div>Loading ...</div>}>
+            <SalesData />
+          </Suspense>
+
           <Suspense fallback={<div>Loading ...</div>}>
             <InventoryMetrics />
           </Suspense>
