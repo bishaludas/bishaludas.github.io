@@ -1,7 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.320edb85.css",
-    "main.js": "/static/js/main.d88f62fc.js",
+    "main.css": "/static/css/main.1fc57c43.css",
+    "main.js": "/static/js/main.cb6d16d5.js",
+    "static/js/879.b72ca61e.chunk.js": "/static/js/879.b72ca61e.chunk.js",
+    "static/js/848.42243749.chunk.js": "/static/js/848.42243749.chunk.js",
+    "static/js/276.ccb88de3.chunk.js": "/static/js/276.ccb88de3.chunk.js",
+    "static/js/351.73607de6.chunk.js": "/static/js/351.73607de6.chunk.js",
+    "static/js/545.d8fbdbbb.chunk.js": "/static/js/545.d8fbdbbb.chunk.js",
     "static/media/hike.jpeg": "/static/media/hike.e156c82b69fce7afc959.jpeg",
     "static/media/pushups.jpeg": "/static/media/pushups.e95056f1fbcdab5ee304.jpeg",
     "static/media/dhulikhel.jpeg": "/static/media/dhulikhel.c3e7f7690d2ff2dab523.jpeg",
@@ -56,11 +61,16 @@
     "static/media/nepse.png": "/static/media/nepse.0f113710fff03e601d28.png",
     "static/media/budash.jpg": "/static/media/budash.f2e6a11ef277e011f5a9.jpg",
     "index.html": "/index.html",
-    "main.320edb85.css.map": "/static/css/main.320edb85.css.map",
-    "main.d88f62fc.js.map": "/static/js/main.d88f62fc.js.map"
+    "main.1fc57c43.css.map": "/static/css/main.1fc57c43.css.map",
+    "main.cb6d16d5.js.map": "/static/js/main.cb6d16d5.js.map",
+    "879.b72ca61e.chunk.js.map": "/static/js/879.b72ca61e.chunk.js.map",
+    "848.42243749.chunk.js.map": "/static/js/848.42243749.chunk.js.map",
+    "276.ccb88de3.chunk.js.map": "/static/js/276.ccb88de3.chunk.js.map",
+    "351.73607de6.chunk.js.map": "/static/js/351.73607de6.chunk.js.map",
+    "545.d8fbdbbb.chunk.js.map": "/static/js/545.d8fbdbbb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.320edb85.css",
-    "static/js/main.d88f62fc.js"
+    "static/css/main.1fc57c43.css",
+    "static/js/main.cb6d16d5.js"
   ]
 }
