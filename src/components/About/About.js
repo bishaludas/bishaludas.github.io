@@ -27,20 +27,30 @@ const About = () => {
   return (
     <div className={classes.content}>
       <p>
-        Hi, I'm Bishal! I'm a full-stack engineer with a passion for building
-        beautiful things from scratch. I've been building websites and saas
-        services since 2017. I love working with React, Express and Postgress,
-        more about them in{" "}
-        {
+        Namaste! 🙏 I'm Bishal!, a passionate Full Stack Developer from Nepal.
+        With a diverse skill set spanning front-end and back-end technologies, I
+        bring creativity and technical expertise to every project I undertake. I
+        am commitment to building robust, scalable applications.
+        {/* {
           <Link to="/stack" className={classes.links}>
             Stack
           </Link>
         }{" "}
-        section.
+        section. */}
       </p>
 
       <p>
-        Right now I'm working at{" "}
+        Right now, I'm pursuing MSc. Computer Science at{" "}
+        <a
+          href="https://www.epita.fr/en/"
+          target="_blank"
+          className={classes.links}
+          rel="noreferrer"
+        >
+          Epita
+        </a>
+        , where my specialization is Software Engineering. Prior to this, I
+        served as a Senior Software Engineer at{" "}
         <a
           href="https://wolfmatrix.com/"
           target="_blank"
@@ -49,15 +59,15 @@ const About = () => {
         >
           Wolfmatrix
         </a>
-        , as a Sr. Software Engineer where I work on solving challenging
-        problems, build cloud architecture and mentor associate developers.
+        , where I tackled intricate challenges, designed cloud architectures,
+        and provided mentorship to fellow developers.
       </p>
 
       <p>
         I have worked on projects for companies such as Chaudhary Group,
-        Mobwizards, Cloudchomp, Vline ,Metro Trains and others. I occasionally
-        make myself available for contract work and consultancy. Please dont
-        hesitate to contact me.
+        Mobwizards, Cloudchomp, WCL Management Service (Vline, Metro Trains) and
+        others. I occasionally make myself available for contract work and
+        consultancy. Please dont hesitate to contact me.
       </p>
       <p>
         You can reach me at{" "}
