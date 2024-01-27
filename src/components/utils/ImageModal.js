@@ -24,7 +24,7 @@ const ImageModal = ({ imgSrc, imgAlt }) => {
       justifyContent: "center",
     },
     paper: {
-      backgroundColor: theme.palette.background.paper,
+      backgroundColor: "#000",
       border: "2px solid #000",
       boxShadow: theme.shadows[5],
       maxWidth: "80%",

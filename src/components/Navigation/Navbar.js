@@ -76,7 +76,7 @@ const Navbar = ({ changeTheme, darkMode }) => {
 
             <NavLink
               className={classes.navlinks}
-              to="/cool_things_in_paris"
+              to="/paris"
               activeClassName={classes.active}
             >
               Paris

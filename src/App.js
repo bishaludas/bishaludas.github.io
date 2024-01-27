@@ -59,7 +59,7 @@ const App = () => {
               <Route path="/articles" component={Articles} />
               <Route path="/journal" component={Journal} />
               <Route path="/projects" component={Project} />
-              <Route path="/cool_things_in_paris" component={ParisBlog} />
+              <Route path="/paris" component={ParisBlog} />
               <Route path="/stack" component={Stack} />
               <Redirect to="/" />
             </Switch>

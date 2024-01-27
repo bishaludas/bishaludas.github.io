@@ -72,7 +72,19 @@ td {
 .img-fluid {
   width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 2%;
+}
+.paris-style {
+  font-family: "serif";
+  font-size: 2rem;
+  background: -webkit-linear-gradient(
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Bootstrap helper styles */
