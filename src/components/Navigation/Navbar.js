@@ -44,7 +44,7 @@ const Navbar = ({ changeTheme, darkMode }) => {
             </Typography>
           </Grid>
 
-          <Grid item xs={10} sm={10} className={classes.navLinkContainer}>
+          <Grid item xs={12} sm={12} className={classes.navLinkContainer}>
             <NavLink
               className={classes.navlinks}
               to="/articles"
@@ -72,6 +72,14 @@ const Navbar = ({ changeTheme, darkMode }) => {
               activeClassName={classes.active}
             >
               Journal
+            </NavLink>
+
+            <NavLink
+              className={classes.navlinks}
+              to="/cool_things_in_paris"
+              activeClassName={classes.active}
+            >
+              Paris
             </NavLink>
           </Grid>
         </Grid>

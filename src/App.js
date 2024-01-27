@@ -16,6 +16,7 @@ import Articles from "./components/Articles/Articles";
 import Journal from "./components/Journal/Journal";
 import Project from "./components/projects/Project";
 import Stack from "./components/About/Stack";
+import ParisBlog from "./components/Paris/ParisBlog";
 
 const App = () => {
   const classes = useStyles();
@@ -58,6 +59,7 @@ const App = () => {
               <Route path="/articles" component={Articles} />
               <Route path="/journal" component={Journal} />
               <Route path="/projects" component={Project} />
+              <Route path="/cool_things_in_paris" component={ParisBlog} />
               <Route path="/stack" component={Stack} />
               <Redirect to="/" />
             </Switch>
