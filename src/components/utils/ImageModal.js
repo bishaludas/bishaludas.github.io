@@ -4,7 +4,7 @@ import Fade from "@material-ui/core/Fade";
 import Backdrop from "@material-ui/core/Backdrop";
 import { makeStyles } from "@material-ui/core/styles";
 
-const ImageModal = ({ imgSrc, imgAlt }) => {
+const ImageModal = ({ imgSrc, imgAlt, imgWidth }) => {
   const [open, setOpen] = useState(false);
   const [imgModal, setImgModal] = useState("");
 
@@ -24,10 +24,7 @@ const ImageModal = ({ imgSrc, imgAlt }) => {
       justifyContent: "center",
     },
     paper: {
-      backgroundColor: "#000",
-      border: "2px solid #000",
-      boxShadow: theme.shadows[5],
-      maxWidth: "80%",
+      maxWidth: imgWidth ? imgWidth : "80%",
     },
   }));
 
