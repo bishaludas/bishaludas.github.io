@@ -47,7 +47,7 @@ const ImageModal = ({ imgSrc, imgAlt, imgWidth }) => {
           <div className={classes.paper}>
             <img
               src={imgModal}
-              alt="asd"
+              alt={imgAlt}
               className="img-fluid"
               onClick={handleOpen}
             />
