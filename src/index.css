@@ -113,19 +113,6 @@ td {
   opacity: 1;
   transform: translateY(1.5rem) translateX(1.5rem);
 }
-.paris .wrapper:nth-child(1) .card:after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-color: #1b1818;
-  background-blend-mode: screen;
-  transform: skew(10deg) scale(1.2);
-  transition: 0.25s;
-}
 
 .paris .wrapper:hover {
   transform: translateX(-1rem) translateY(-1rem) skew(-10deg);
@@ -148,6 +135,7 @@ td {
   padding: 2rem;
   position: relative;
   overflow: hidden;
+  background-color: #1b1818;
 }
 .paris .card:after {
   background-size: cover;
@@ -181,19 +169,60 @@ td {
   transition: 0.25s;
 }
 
-.paris .wrapper:nth-child(1) .card:after {
+.paris .wraper-1 .card:after {
   content: "";
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("https://bishaludash.com.np/static/media/sarankot.9f54681225b650674df8.jpeg");
+  background-image: url("https://github.com/bishaludash/bishaludash.github.io/blob/master/src/components/Paris/img/arc-de-triumph.jpg?raw=true");
   background-size: cover;
-  background-blend-mode: screen;
+  /* background-color: #1b1818; */
+  /* background-blend-mode: screen; */
   transform: skew(10deg) scale(1.2);
   transition: 0.25s;
 }
+
+.paris .wrapper-2 .card:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("https://github.com/bishaludash/bishaludash.github.io/blob/master/src/components/Paris/img/saint-germain.jpg?raw=true");
+  background-size: cover;
+  transform: skew(10deg) scale(1.2);
+  transition: 0.25s;
+}
+
+.paris .wrapper-3 .card:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("https://github.com/bishaludash/bishaludash.github.io/blob/master/src/components/Paris/img/shakespeareCo.jpg?raw=true");
+  background-size: cover;
+  transform: skew(10deg) scale(1.2);
+  transition: 0.25s;
+}
+
+.paris .wrapper-4 .card:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("https://github.com/bishaludash/bishaludash.github.io/blob/master/src/components/Paris/img/restaurant.jpg?raw=true");
+  background-size: cover;
+  transform: skew(10deg) scale(1.2);
+  transition: 0.25s;
+}
+
 /* Bootstrap helper styles */
 /* bootstrap helper class */
 .m-0 {

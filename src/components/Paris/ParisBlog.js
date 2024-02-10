@@ -35,8 +35,8 @@ const ParisBlog = () => {
       {/* Paris Categories */}
       <div className="paris">
         <Grid container spacing={3} className="mt-5 p-2">
-          <Grid item md={6} sm={12} xs={12}>
-            <div className="wrapper">
+          <Grid item md={6} sm={12} xs={12} className="p-4">
+            <div className="wrapper wraper-1">
               <div className="card">
                 <div className="card-title px-2">Tourist Center</div>
                 <div className="fal ">
@@ -46,8 +46,8 @@ const ParisBlog = () => {
             </div>
           </Grid>
 
-          <Grid item md={6} sm={12} xs={12}>
-            <div className="wrapper">
+          <Grid item md={6} sm={12} xs={12} className="p-4">
+            <div className="wrapper wrapper-2">
               <div className="card">
                 <div className="card-title px-2">Stuff to Do</div>
                 <div className="fal ">
@@ -57,8 +57,8 @@ const ParisBlog = () => {
             </div>
           </Grid>
 
-          <Grid item md={6} sm={12} xs={12}>
-            <div className="wrapper">
+          <Grid item md={6} sm={12} xs={12} className="p-4">
+            <div className="wrapper wrapper-3">
               <div className="card">
                 <div className="card-title px-2">Gems 💎</div>
                 <div className="fal ">
@@ -68,8 +68,8 @@ const ParisBlog = () => {
             </div>
           </Grid>
 
-          <Grid item md={6} sm={12} xs={12}>
-            <div className="wrapper">
+          <Grid item md={6} sm={12} xs={12} className="p-4">
+            <div className="wrapper wrapper-4">
               <div className="card">
                 <div className="card-title px-2">Food and Drink</div>
 
