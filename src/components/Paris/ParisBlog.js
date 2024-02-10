@@ -3,7 +3,6 @@ import Grid from "@material-ui/core/Grid";
 import ImageModal from "../utils/ImageModal";
 import EiffelTower from "./img/paris_eiffel_tower.jpg";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
-import SaintGermain from "./img/saint-germain-small.jpg";
 
 const ParisBlog = () => {
   return (
@@ -33,15 +32,13 @@ const ParisBlog = () => {
         </Grid>
       </Grid>
 
-      <img className="img-fluid" src={SaintGermain} alt="saint germain" />
-
       {/* Paris Categories */}
       <div className="paris">
         <Grid container spacing={3} className="mt-5 p-2">
           <Grid item md={6} sm={12} xs={12}>
             <div className="wrapper">
               <div className="card">
-                <div className="card-title px-2">Tourist center</div>
+                <div className="card-title px-2">Tourist Center</div>
                 <div className="fal ">
                   <ArrowForwardIcon />
                 </div>
@@ -63,7 +60,7 @@ const ParisBlog = () => {
           <Grid item md={6} sm={12} xs={12}>
             <div className="wrapper">
               <div className="card">
-                <div className="card-title px-2">Secret Gems 💎</div>
+                <div className="card-title px-2">Gems 💎</div>
                 <div className="fal ">
                   <ArrowForwardIcon />
                 </div>
