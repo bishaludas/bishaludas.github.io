@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import ImageModal from "../utils/ImageModal";
 import EiffelTower from "./img/paris_eiffel_tower.jpg";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
-import SaintGermain from "./img/saint-germain.jpg";
+import SaintGermain from "./img/saint-germain-small.jpg";
 
 const ParisBlog = () => {
   return (
@@ -41,7 +41,7 @@ const ParisBlog = () => {
           <Grid item md={6} sm={12} xs={12}>
             <div className="wrapper">
               <div className="card">
-                <div className="card-title px-2">Cultural center</div>
+                <div className="card-title px-2">Tourist center</div>
                 <div className="fal ">
                   <ArrowForwardIcon />
                 </div>
